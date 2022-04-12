@@ -1,0 +1,13 @@
+{
+  "name": "mutty-utils",
+  "version": "1.0.0",
+  "description": "type and firestore utils for mutty",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "firebase": "^9.6.10"
+  }
+}
