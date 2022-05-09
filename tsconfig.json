@@ -4,7 +4,8 @@
     "declaration": true,
     "outDir": "./dist",
     "module": "commonjs",
-    "target": "es2015"
+    "target": "es2015",
+    "esModuleInterop": true
   },
   "include": ["./src/**/*"]
 }

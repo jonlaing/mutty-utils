@@ -1,0 +1,14 @@
+import { Comment } from "../types/Comment";
+import { Dog } from "../types/Dog";
+import { Notification, NotificationBuilder } from "../types/Notification";
+import { Post } from "../types/Post";
+import { Friendship } from "../types/Friendship";
+import { Human } from "../types/Human";
+export declare function findLikeContent(notif: Notification, posts: Post[], comments: Comment[]): Comment | Post | undefined;
+export declare function findLikeDogs(notif: Notification, content: Post | Comment, dogs: Dog[]): Dog[];
+export declare function findCommentDogs(notif: Notification, dogs: Dog[]): Dog[];
+export declare function findFriendships(notif: Notification, friendships: Friendship[]): Friendship[];
+export declare function findFriendDogs(notif: Notification, dogs: Dog[], friendships: Friendship[]): Dog[];
+export declare const groupLikeNotifs: (ns: Notification[]) => Notification[];
+export declare const stringifyNotif: (notif: Notification | NotificationBuilder, fromHuman: Human | undefined, fromDogs: Dog[]) => string;
+export declare function sendPushNotification(to: string, title: string, body: string, data: any): Promise<void>;

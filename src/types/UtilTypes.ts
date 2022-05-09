@@ -1,0 +1,1 @@
+export type PropFn<T, K extends keyof T> = (x: T) => T[K];
