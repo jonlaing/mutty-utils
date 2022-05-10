@@ -52,3 +52,7 @@ export type WithComments<T> = T & {
 export type TypedContainer<TypeMap, FieldName extends string = "type"> = {
   [k in keyof TypeMap]: TypeMap[k];
 } & { [field in FieldName]: keyof TypeMap };
+
+export type HasProp<T, K extends string> = T extends { [k in K]: any }
+  ? true
+  : false;

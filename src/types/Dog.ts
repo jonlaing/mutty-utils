@@ -23,12 +23,14 @@ export interface Dog extends ProcessedDoc, EmbeddableFields<DogEmbedMap> {
 
 export interface DogBuilder extends DocBuilder<Dog> {}
 
-export const emptyDog: Dog = {
-  id: "",
-  fullName: "",
-  pics: [],
-  breed: "",
-  yearBorn: new Date().getFullYear(),
-  summary: "",
-  created: 0,
-};
+export namespace Dog {
+  export const emptyDog: Dog = {
+    id: "",
+    fullName: "",
+    pics: [],
+    breed: "",
+    yearBorn: new Date().getFullYear(),
+    summary: "",
+    created: 0,
+  };
+}

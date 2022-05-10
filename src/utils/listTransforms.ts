@@ -55,8 +55,9 @@ export function collectMultiDocs<T extends LikedDogContent>(
   return f(ds) as MultiDoc<T>[];
 }
 
-type MultiPost = MultiDoc<Liked<EmbedField<Post, "dog", Dog>>>;
-type MultiBulletin = MultiDoc<Liked<EmbedField<Bulletin, "dog", Dog>>>;
+export type MultiPost = MultiDoc<Liked<EmbedField<Post, "dog", Dog>>>;
+export type MultiBulletin = MultiDoc<Liked<EmbedField<Bulletin, "dog", Dog>>>;
+
 export function intersperseBulletins(
   posts: MultiPost[],
   bulletins: MultiBulletin[]

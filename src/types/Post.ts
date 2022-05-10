@@ -22,18 +22,20 @@ export interface Post extends ProcessedDoc, EmbeddableFields<PostEmbedMap> {
   tags?: Record<string, GUID>;
 }
 
-export const emptyPost: Post = {
-  id: "",
-  user: "",
-  dog: "",
-  contentId: "",
-  location: {},
-  summary: "",
-  image: "",
-  likes: 0,
-  created: 0,
-};
-
 export type PostBuilder<HasLikes extends boolean = true> = HasLikes extends true
   ? DocBuilder<Post>
   : DocBuilder<Omit<Post, "likes">>;
+
+export namespace Post {
+  export const emptyPost: Post = {
+    id: "",
+    user: "",
+    dog: "",
+    contentId: "",
+    location: {},
+    summary: "",
+    image: "",
+    likes: 0,
+    created: 0,
+  };
+}

@@ -1,4 +1,4 @@
-import { DocBuilder, ProcessedDoc } from "./FirestoreBaseTypes";
+import { DocBuilder, HasProp, ProcessedDoc } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
 import { Likeable } from "./Like";
 
@@ -26,7 +26,3 @@ export interface LikeNotifIface extends Likeable {
 export type LikeNotifWDog<T> = T extends HasProp<T, "dog">
   ? LikeNotifIface & { dog: GUID }
   : LikeNotifIface & { dogs: GUID[] };
-
-export type HasProp<T, K extends string> = T extends { [k in K]: any }
-  ? true
-  : false;
