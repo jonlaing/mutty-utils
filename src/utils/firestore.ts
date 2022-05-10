@@ -37,8 +37,8 @@ export function batchField<U>(
   const fieldBatch: U[][] = vals.length < 10 ? [vals] : R.splitEvery(9, vals);
   return fieldBatch.map((vs) => {
     return [
-      ...constraints,
       (q) => q.where(field, "in", vs),
+      ...constraints,
     ] as QueryConstraintSyncFn[];
   });
 }
