@@ -29,7 +29,7 @@ const KM_IN_DEGREE_LAT = 110.574;
 const KM_COEF_LONG = 111.32;
 const PHI = 2 / KM_IN_DEGREE_LAT;
 const toRad = (deg) => deg * (Math.PI / 180);
-const toDeg = (rad) => rad * (180 / Math.PI);
+// const toDeg = (rad: number) => rad * (180 / Math.PI);
 const LAMDA = (lat) => 2 / (KM_COEF_LONG * Math.cos(toRad(lat)));
 function coordToFullID(lat, long) {
     const x = (90 - lat) / PHI;

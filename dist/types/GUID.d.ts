@@ -1,2 +1,4 @@
 export declare type GUID = string;
-export declare function newGUID(): GUID;
+export declare namespace GUID {
+    function newGUID(): GUID;
+}

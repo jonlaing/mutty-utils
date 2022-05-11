@@ -44,7 +44,9 @@ const getByUser = (fs, userId) => fs
     .collection("humans")
     .where("userid", "==", userId)
     .get()
-    .then((docs) => (docs.size > 0 ? docs.docs[0] : Promise.reject()))
+    .then((docs) => docs.size > 0
+    ? docs.docs[0]
+    : Promise.reject("Couldn't find human with userid:" + userId))
     .then((doc) => doc.data());
 exports.getByUser = getByUser;
 function updatePushToken(fs, userId, pushToken) {

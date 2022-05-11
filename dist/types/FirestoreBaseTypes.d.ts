@@ -36,3 +36,6 @@ export declare type TypedContainer<TypeMap, FieldName extends string = "type"> =
 } & {
     [field in FieldName]: keyof TypeMap;
 };
+export declare type HasProp<T, K extends string> = T extends {
+    [k in K]: any;
+} ? true : false;

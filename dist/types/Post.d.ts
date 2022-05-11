@@ -15,5 +15,7 @@ export interface Post extends ProcessedDoc, EmbeddableFields<PostEmbedMap> {
     likes: number;
     tags?: Record<string, GUID>;
 }
-export declare const emptyPost: Post;
 export declare type PostBuilder<HasLikes extends boolean = true> = HasLikes extends true ? DocBuilder<Post> : DocBuilder<Omit<Post, "likes">>;
+export declare namespace Post {
+    const emptyPost: Post;
+}

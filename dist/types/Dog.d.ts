@@ -16,4 +16,6 @@ export interface Dog extends ProcessedDoc, EmbeddableFields<DogEmbedMap> {
 }
 export interface DogBuilder extends DocBuilder<Dog> {
 }
-export declare const emptyDog: Dog;
+export declare namespace Dog {
+    const emptyDog: Dog;
+}
