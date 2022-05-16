@@ -28,3 +28,4 @@ exports.photoURL = control_1.lens.compose(maybeUser, control_1.lens.prop("photoU
 exports.redirectEventId = control_1.lens.compose(maybeUser, control_1.lens.prop("redirectEventId"));
 exports.tenantID = control_1.lens.compose(maybeUser, control_1.lens.prop("tenantId"));
 exports.uid = control_1.lens.compose(maybeUser, control_1.lens.prop("uid"));
+//# sourceMappingURL=User.js.map

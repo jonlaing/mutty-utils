@@ -35,3 +35,4 @@ __exportStar(require("./UtilTypes"), exports);
 __exportStar(require("./Firestore"), exports);
 __exportStar(require("./MultiDoc"), exports);
 __exportStar(require("./Geopoint"), exports);
+//# sourceMappingURL=index.js.map

@@ -87,3 +87,4 @@ function batchGetById(query, ids) {
     });
 }
 exports.batchGetById = batchGetById;
+//# sourceMappingURL=firestore.js.map

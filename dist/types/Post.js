@@ -15,3 +15,4 @@ var Post;
         created: 0,
     };
 })(Post = exports.Post || (exports.Post = {}));
+//# sourceMappingURL=Post.js.map

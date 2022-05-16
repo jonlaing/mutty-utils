@@ -118,3 +118,4 @@ function sendPushNotification(to, title, body, data) {
     });
 }
 exports.sendPushNotification = sendPushNotification;
+//# sourceMappingURL=notification.js.map

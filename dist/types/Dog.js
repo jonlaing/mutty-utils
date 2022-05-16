@@ -13,3 +13,4 @@ var Dog;
         created: 0,
     };
 })(Dog = exports.Dog || (exports.Dog = {}));
+//# sourceMappingURL=Dog.js.map

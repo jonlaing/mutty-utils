@@ -36,3 +36,4 @@ const nameList = (ss) => {
 };
 exports.nameList = nameList;
 exports.titleCase = R.ifElse(R.isNil, R.always(undefined), R.pipe(R.split(""), R.adjust(0, R.toUpper), R.join("")));
+//# sourceMappingURL=strings.js.map

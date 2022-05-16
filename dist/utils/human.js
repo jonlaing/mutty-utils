@@ -63,3 +63,4 @@ function updatePushToken(fs, userId, pushToken) {
     });
 }
 exports.updatePushToken = updatePushToken;
+//# sourceMappingURL=human.js.map

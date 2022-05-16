@@ -9,3 +9,4 @@ var flag;
     flag.contentType = control_1.lens.prop("contentType");
 })(flag = exports.flag || (exports.flag = {}));
 exports.flagType = control_1.lens.prop("type");
+//# sourceMappingURL=Flag.js.map

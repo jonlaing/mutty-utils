@@ -20,3 +20,4 @@ const contactDefault = control_1.lens.compose(exports.contact, control_1.lens.op
 exports.phone = control_1.lens.compose(contactDefault, control_1.lens.prop("phone"));
 exports.email = control_1.lens.compose(contactDefault, control_1.lens.prop("email"));
 exports.other = control_1.lens.compose(contactDefault, control_1.lens.prop("phone"));
+//# sourceMappingURL=Bulletin.js.map

@@ -12,3 +12,4 @@ var Timestamp;
     }
     Timestamp.now = now;
 })(Timestamp = exports.Timestamp || (exports.Timestamp = {}));
+//# sourceMappingURL=Timestamp.js.map

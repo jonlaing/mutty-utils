@@ -13,3 +13,4 @@ exports.user = control_1.lens.prop("user");
 exports.summary = control_1.lens.prop("summary");
 exports.author = control_1.lens.prop("author");
 exports.image = control_1.lens.prop("image");
+//# sourceMappingURL=Base.js.map

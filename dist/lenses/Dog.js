@@ -10,3 +10,4 @@ exports.monthBorn = control_1.lens.prop("monthBorn");
 exports.dayBorn = control_1.lens.prop("dayBorn");
 exports.missing = control_1.lens.prop("missing"); // contentID for bulletin
 exports.relationship = control_1.lens.prop("relationship");
+//# sourceMappingURL=Dog.js.map

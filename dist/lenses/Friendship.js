@@ -9,3 +9,4 @@ exports.friendshipID = control_1.lens.prop("friendshipId");
 exports.status = control_1.lens.prop("status");
 // return nothing if block wasn't set
 exports.block = control_1.lens.lens((a) => data_1.maybe.bind(data_1.dict.get("block", a), (b) => b === "" ? data_1.maybe.nothing() : data_1.maybe.just(b)), (mv, a) => data_1.maybe.fromMaybe(a, data_1.maybe.fmap((v) => data_1.dict.set("block", v, a), mv)));
+//# sourceMappingURL=Friendship.js.map

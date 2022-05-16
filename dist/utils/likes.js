@@ -44,3 +44,4 @@ function getLikesByUser(fs, userId, docIds) {
     });
 }
 exports.getLikesByUser = getLikesByUser;
+//# sourceMappingURL=likes.js.map

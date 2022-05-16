@@ -31,3 +31,4 @@ exports.and = R.curry((f, g, v) => f(v) && g(v));
 exports.prop = R.curry((k, obj) => obj[k]);
 exports.propNotIncluded = R.curry((arr, key, obj) => !arr.includes(obj[key]));
 exports.modify = R.curry((key, f, obj) => (Object.assign(Object.assign({}, obj), { [key]: f(obj) })));
+//# sourceMappingURL=ramdaFix.js.map

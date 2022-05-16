@@ -63,3 +63,4 @@ function coordToMatrix(lat, long, delta) {
     return M;
 }
 exports.coordToMatrix = coordToMatrix;
+//# sourceMappingURL=location.js.map

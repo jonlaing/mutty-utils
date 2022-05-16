@@ -31,3 +31,4 @@ exports.latitude = control_1.lens.compose(exports.geopoint, control_1.lens.optio
 exports.longitude = control_1.lens.compose(exports.geopoint, control_1.lens.optional({}), GLens.longitude);
 exports.name = control_1.lens.prop("name");
 exports.location = control_1.lens.prop("location");
+//# sourceMappingURL=Location.js.map

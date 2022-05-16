@@ -34,3 +34,4 @@ exports.phonenumber = __importStar(require("./phonenumber"));
 exports.ramdaFix = __importStar(require("./ramdaFix"));
 exports.strings = __importStar(require("./strings"));
 exports.tag = __importStar(require("./tag"));
+//# sourceMappingURL=index.js.map

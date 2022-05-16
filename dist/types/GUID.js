@@ -9,3 +9,4 @@ var GUID;
     }
     GUID.newGUID = newGUID;
 })(GUID = exports.GUID || (exports.GUID = {}));
+//# sourceMappingURL=GUID.js.map

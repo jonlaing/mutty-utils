@@ -12,3 +12,4 @@ exports.pushToken = control_1.lens.prop("pushToken");
 exports.pausePushNotifs = control_1.lens.prop("pausePushNotifs");
 exports.recoveryEmail = control_1.lens.prop("recoveryEmail");
 exports.recentLocation = control_1.lens.prop("recentLocation");
+//# sourceMappingURL=Human.js.map

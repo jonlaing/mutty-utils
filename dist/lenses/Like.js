@@ -9,3 +9,4 @@ var like;
 exports.likeType = control_1.lens.prop("type");
 exports.likes = control_1.lens.prop("likes");
 exports.liked = control_1.lens.prop("liked");
+//# sourceMappingURL=Like.js.map

@@ -8,3 +8,4 @@ var comment;
 (function (comment) {
     comment.contentID = control_1.lens.prop("content");
 })(comment = exports.comment || (exports.comment = {}));
+//# sourceMappingURL=Comment.js.map

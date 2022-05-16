@@ -45,3 +45,4 @@ const splitTags = (s) => {
     return _splitTags([s], tags);
 };
 exports.splitTags = splitTags;
+//# sourceMappingURL=tag.js.map

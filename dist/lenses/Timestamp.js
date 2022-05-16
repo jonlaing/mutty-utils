@@ -8,3 +8,4 @@ const control_1 = require("shonad/control");
 const data_1 = require("shonad/data");
 const moment_1 = __importDefault(require("moment"));
 exports.momentLens = control_1.lens.lens((m) => data_1.maybe.fmap((n) => moment_1.default.unix(n), m), (n, m) => n);
+//# sourceMappingURL=Timestamp.js.map
