@@ -1,3 +1,3 @@
 export * from "./types";
-export * from "./utils";
+export * as utils from "./utils";
 export * as lenses from "./lenses";

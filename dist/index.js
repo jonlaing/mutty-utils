@@ -26,8 +26,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.lenses = void 0;
+exports.lenses = exports.utils = void 0;
 __exportStar(require("./types"), exports);
-__exportStar(require("./utils"), exports);
+exports.utils = __importStar(require("./utils"));
 exports.lenses = __importStar(require("./lenses"));
 //# sourceMappingURL=index.js.map

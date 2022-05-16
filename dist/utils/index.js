@@ -23,15 +23,15 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.tag = exports.strings = exports.ramdaFix = exports.phonenumber = exports.notifications = exports.location = exports.listTransforms = exports.likes = exports.humans = exports.firestore = void 0;
+exports.tags = exports.strings = exports.ramdaFix = exports.phone = exports.notifications = exports.location = exports.lists = exports.likes = exports.humans = exports.firestore = void 0;
 exports.firestore = __importStar(require("./firestore"));
 exports.humans = __importStar(require("./human"));
 exports.likes = __importStar(require("./likes"));
-exports.listTransforms = __importStar(require("./listTransforms"));
+exports.lists = __importStar(require("./listTransforms"));
 exports.location = __importStar(require("./location"));
 exports.notifications = __importStar(require("./notification"));
-exports.phonenumber = __importStar(require("./phonenumber"));
+exports.phone = __importStar(require("./phonenumber"));
 exports.ramdaFix = __importStar(require("./ramdaFix"));
 exports.strings = __importStar(require("./strings"));
-exports.tag = __importStar(require("./tag"));
+exports.tags = __importStar(require("./tag"));
 //# sourceMappingURL=index.js.map
