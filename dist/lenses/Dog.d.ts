@@ -1,0 +1,10 @@
+import { lens } from "shonad/control";
+import { Relationship } from "../types";
+export declare const fullName: lens.Lens<Record<string, string>, import("shonad/dist/data/Maybe").Maybe<string>>;
+export declare const pics: lens.Lens<Record<string, string[]>, import("shonad/dist/data/Maybe").Maybe<string[]>>;
+export declare const breed: lens.Lens<Record<string, string>, import("shonad/dist/data/Maybe").Maybe<string>>;
+export declare const yearBorn: lens.Lens<Record<string, number>, import("shonad/dist/data/Maybe").Maybe<number>>;
+export declare const monthBorn: lens.Lens<Record<string, number>, import("shonad/dist/data/Maybe").Maybe<number>>;
+export declare const dayBorn: lens.Lens<Record<string, number>, import("shonad/dist/data/Maybe").Maybe<number>>;
+export declare const missing: lens.Lens<Record<string, string>, import("shonad/dist/data/Maybe").Maybe<string>>;
+export declare const relationship: lens.Lens<Record<string, string | Relationship>, import("shonad/dist/data/Maybe").Maybe<string | Relationship>>;

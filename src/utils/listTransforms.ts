@@ -3,6 +3,12 @@ import { Bulletin } from "../types/Bulletin";
 import { Dog } from "../types/Dog";
 import { EmbedField, Liked, TypedContainer } from "../types/FirestoreBaseTypes";
 import { GUID } from "../types/GUID";
+import {
+  LikedDogContent,
+  MultiBulletin,
+  MultiDoc,
+  MultiPost,
+} from "../types/MultiDoc";
 import { Post } from "../types/Post";
 
 export const fillList = (length: number, arr: any[]) =>
@@ -13,18 +19,6 @@ export const fillList = (length: number, arr: any[]) =>
       R.take(length)
     ) as any
   )(arr);
-
-interface LikedDogContent {
-  contentId: GUID;
-  dog: Dog;
-  liked: boolean;
-  likes: number;
-  comments?: number;
-}
-
-export type MultiDoc<T extends LikedDogContent> = T & {
-  dogs: Dog[];
-};
 
 export function collectMultiDocs<T extends LikedDogContent>(
   ds: T[]
@@ -54,9 +48,6 @@ export function collectMultiDocs<T extends LikedDogContent>(
   );
   return f(ds) as MultiDoc<T>[];
 }
-
-export type MultiPost = MultiDoc<Liked<EmbedField<Post, "dog", Dog>>>;
-export type MultiBulletin = MultiDoc<Liked<EmbedField<Bulletin, "dog", Dog>>>;
 
 export function intersperseBulletins(
   posts: MultiPost[],

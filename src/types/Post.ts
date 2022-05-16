@@ -11,13 +11,19 @@ export type PostEmbedMap = {
   dog: Dog;
 };
 
+export interface Video {
+  uri: string;
+  thumbnail: string;
+}
+
 export interface Post extends ProcessedDoc, EmbeddableFields<PostEmbedMap> {
   user: GUID;
   contentId: GUID;
   location: Location;
   locationID?: string;
   summary: string;
-  image: string;
+  image?: string;
+  video?: Video;
   likes: number;
   tags?: Record<string, GUID>;
 }

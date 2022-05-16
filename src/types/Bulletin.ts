@@ -13,6 +13,12 @@ export type BulletinEmbedMap = {
   dog: Dog;
 };
 
+export interface Contact {
+  phone?: string;
+  email?: string;
+  other?: string;
+}
+
 export interface Bulletin
   extends ProcessedDoc,
     EmbeddableFields<BulletinEmbedMap> {
@@ -30,11 +36,7 @@ export interface Bulletin
   bulletinType: BulletinType;
   date: number;
   endDate?: number;
-  contact?: {
-    phone?: string;
-    email?: string;
-    other?: string;
-  };
+  contact?: Contact;
   dogFound?: boolean;
 }
 

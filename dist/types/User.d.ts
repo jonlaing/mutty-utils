@@ -1,41 +1,46 @@
+export interface AdditionalUserInfo {
+    isNewUser: boolean;
+    providerId: string;
+}
+export interface MultiFactor {
+    enrolledFactors: string[];
+}
+export interface ProviderData {
+    displayName?: string;
+    email?: string;
+    phoneNumber: string;
+    photoURL?: string;
+    providerId: string;
+    uid: string;
+}
+export interface STSTokenManager {
+    accessToken: string;
+    apiKey: string;
+    expirationTime: number;
+    refreshToken: string;
+}
+export interface UserUser {
+    apiKey: string;
+    appName: string;
+    authDomain: string;
+    createdAt: string;
+    displayName?: string;
+    email?: string;
+    emailVerified: boolean;
+    isAnonymous: boolean;
+    lastLoginAt: string;
+    multiFactor: MultiFactor;
+    phoneNumber: string;
+    photoURL?: string;
+    providerData: ProviderData[];
+    redirectEventId: any;
+    stsTokenManager: STSTokenManager;
+    tenantId?: string;
+    uid: string;
+}
 export interface User {
-    additionalUserInfo: {
-        isNewUser: boolean;
-        providerId: "phone";
-    };
+    additionalUserInfo: AdditionalUserInfo;
     credential: any;
     operationType: string;
-    user: {
-        apiKey: string;
-        appName: string;
-        authDomain: string;
-        createdAt: string;
-        displayName: string | null;
-        email: string | null;
-        emailVerified: boolean;
-        isAnonymous: boolean;
-        lastLoginAt: string;
-        multiFactor: {
-            enrolledFactors: string[];
-        };
-        phoneNumber: string;
-        photoURL: string | null;
-        providerData: {
-            displayName: string | null;
-            email: string | null;
-            phoneNumber: string;
-            photoURL: string | null;
-            providerId: string;
-            uid: string;
-        }[];
-        redirectEventId: any;
-        stsTokenManager: {
-            accessToken: string;
-            apiKey: string;
-            expirationTime: number;
-            refreshToken: string;
-        };
-        tenantId: string | null;
-        uid: string;
-    };
+    user: UserUser;
 }

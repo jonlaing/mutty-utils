@@ -6,6 +6,11 @@ export declare type BulletinType = "meetup" | "lostdog" | "ad";
 export declare type BulletinEmbedMap = {
     dog: Dog;
 };
+export interface Contact {
+    phone?: string;
+    email?: string;
+    other?: string;
+}
 export interface Bulletin extends ProcessedDoc, EmbeddableFields<BulletinEmbedMap> {
     user: GUID;
     contentId: GUID;
@@ -21,11 +26,7 @@ export interface Bulletin extends ProcessedDoc, EmbeddableFields<BulletinEmbedMa
     bulletinType: BulletinType;
     date: number;
     endDate?: number;
-    contact?: {
-        phone?: string;
-        email?: string;
-        other?: string;
-    };
+    contact?: Contact;
     dogFound?: boolean;
 }
 export declare type BulletinBuilder<HasLikes extends boolean = true> = HasLikes extends true ? DocBuilder<Bulletin> : DocBuilder<Omit<Bulletin, "likes">>;

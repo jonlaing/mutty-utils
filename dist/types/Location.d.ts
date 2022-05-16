@@ -1,7 +1,5 @@
+import { Geopoint } from "./Geopoint";
 export interface Location {
-    geopoint?: {
-        latitude: number;
-        longitude: number;
-    };
+    geopoint?: Geopoint;
     name?: string | null;
 }
