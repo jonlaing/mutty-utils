@@ -1284,7 +1284,7 @@ semver@^6.0.0:
 
 "shonad@https://github.com/jonlaing/shonad":
   version "1.0.0"
-  resolved "https://github.com/jonlaing/shonad#62a6aa4c34bcd771f67e5cb33b0c8eb18a157f88"
+  resolved "https://github.com/jonlaing/shonad#09bb7a9e43ac7cd18429bbd9f1c7898fba24ace3"
 
 signal-exit@^3.0.2:
   version "3.0.7"

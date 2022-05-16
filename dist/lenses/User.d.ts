@@ -1,10 +1,10 @@
 import { lens } from "shonad/control";
 import { maybe } from "shonad/data";
 import { AdditionalUserInfo, MultiFactor, ProviderData, STSTokenManager, User, UserUser } from "../types";
-export declare const additionalUserInfo: lens.Lens<Record<string, AdditionalUserInfo>, maybe.Maybe<AdditionalUserInfo>>;
-export declare const credential: lens.Lens<Record<string, any>, maybe.Maybe<any>>;
-export declare const operationType: lens.Lens<Record<string, string>, maybe.Maybe<string>>;
-export declare const userRecord: lens.Lens<Record<string, UserUser>, maybe.Maybe<UserUser>>;
+export declare const additionalUserInfo: lens.Lens<any, maybe.Maybe<AdditionalUserInfo>>;
+export declare const credential: lens.Lens<any, maybe.Maybe<any>>;
+export declare const operationType: lens.Lens<any, maybe.Maybe<string>>;
+export declare const userRecord: lens.Lens<any, maybe.Maybe<UserUser>>;
 export declare const isNewUser: lens.Lens<User, maybe.Maybe<boolean>>;
 export declare const providerID: lens.Lens<User, maybe.Maybe<string>>;
 export declare const multiFactor: lens.Lens<User, maybe.Maybe<MultiFactor>>;
