@@ -33,3 +33,5 @@ __exportStar(require("./Timestamp"), exports);
 __exportStar(require("./User"), exports);
 __exportStar(require("./UtilTypes"), exports);
 __exportStar(require("./Firestore"), exports);
+__exportStar(require("./MultiDoc"), exports);
+__exportStar(require("./Geopoint"), exports);

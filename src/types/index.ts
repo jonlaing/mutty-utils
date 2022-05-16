@@ -17,3 +17,5 @@ export * from "./Timestamp";
 export * from "./User";
 export * from "./UtilTypes";
 export * from "./Firestore";
+export * from "./MultiDoc";
+export * from "./Geopoint";
