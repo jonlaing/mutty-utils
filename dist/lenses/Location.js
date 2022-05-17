@@ -23,12 +23,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.location = exports.name = exports.longitude = exports.latitude = exports.geopoint = void 0;
+exports.longitude = exports.latitude = exports.location = exports.name = exports.geopoint = void 0;
 const control_1 = require("shonad/control");
 const GLens = __importStar(require("./Geopoint"));
 exports.geopoint = control_1.lens.prop("geopoint");
-exports.latitude = control_1.lens.compose(exports.geopoint, control_1.lens.optional({}), GLens.latitude);
-exports.longitude = control_1.lens.compose(exports.geopoint, control_1.lens.optional({}), GLens.longitude);
 exports.name = control_1.lens.prop("name");
 exports.location = control_1.lens.prop("location");
+exports.latitude = control_1.lens.compose(exports.location, control_1.lens.optional({}), exports.geopoint, control_1.lens.optional({}), GLens.latitude);
+exports.longitude = control_1.lens.compose(exports.location, control_1.lens.optional({}), exports.geopoint, control_1.lens.optional({}), GLens.longitude);
 //# sourceMappingURL=Location.js.map
