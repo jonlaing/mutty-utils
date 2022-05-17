@@ -22,15 +22,15 @@ const contactDefault = lens.compose<
   Record<string, string>
 >(contact, lens.optional({}));
 
-export const phone = lens.compose<Record<string, Contact>, maybe.Maybe<string>>(
+export const phone = lens.compose<any, maybe.Maybe<string>>(
   contactDefault,
   lens.prop<string>("phone")
 );
-export const email = lens.compose<Record<string, Contact>, maybe.Maybe<string>>(
+export const email = lens.compose<any, maybe.Maybe<string>>(
   contactDefault,
   lens.prop<string>("email")
 );
-export const other = lens.compose<Record<string, Contact>, maybe.Maybe<string>>(
+export const other = lens.compose<any, maybe.Maybe<string>>(
   contactDefault,
   lens.prop<string>("phone")
 );
