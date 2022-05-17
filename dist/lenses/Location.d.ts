@@ -1,8 +1,9 @@
 import { lens } from "shonad/control";
 import { Location } from "../types";
 import { Geopoint } from "../types/Geopoint";
-export declare const geopoint: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<Geopoint>>;
-export declare const name: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
-export declare const location: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<Location>>;
-export declare const latitude: lens.Lens<any, number>;
-export declare const longitude: lens.Lens<any, number>;
+import { maybe } from "shonad/data";
+export declare const geopoint: lens.Lens<any, maybe.Maybe<Geopoint>>;
+export declare const name: lens.Lens<any, maybe.Maybe<string>>;
+export declare const location: lens.Lens<any, maybe.Maybe<Location>>;
+export declare const latitude: lens.Lens<any, maybe.Maybe<number>>;
+export declare const longitude: lens.Lens<any, maybe.Maybe<number>>;
