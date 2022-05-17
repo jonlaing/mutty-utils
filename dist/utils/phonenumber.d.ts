@@ -1,2 +1,3 @@
-export declare const parseAndFormatPhoneNumber: (userInput: string) => string | null;
-export declare const parseAndCompressNumber: (input: string) => string | undefined;
+import { maybe } from "shonad/data";
+export declare const parseAndFormat: (userInput: string) => maybe.Maybe<string>;
+export declare const parseAndCompress: (input: string) => maybe.Maybe<string>;

@@ -8,14 +8,14 @@ export const name = lens.prop<string>("name");
 
 export const location = lens.prop<Location>("location");
 
-export const latitude = lens.compose<Location, number>(
+export const latitude = lens.compose<any, number>(
   location,
   lens.optional({}),
   geopoint,
   lens.optional({}),
   GLens.latitude
 );
-export const longitude = lens.compose<Location, number>(
+export const longitude = lens.compose<any, number>(
   location,
   lens.optional({}),
   geopoint,
