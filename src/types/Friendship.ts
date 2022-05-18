@@ -22,4 +22,4 @@ export interface Friendship
   block: GUID;
 }
 
-export interface FriendshipBuilder extends DocBuilder<Friendship> {}
+export type FriendshipBuilder = DocBuilder<Friendship>;

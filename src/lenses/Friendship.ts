@@ -1,5 +1,5 @@
 import { lens } from "shonad/control";
-import { maybe, dict } from "shonad/data";
+import { dict, maybe } from "shonad/data";
 import { Dog, Friendship, FriendshipStatus, GUID } from "../types";
 
 export const dog1 = lens.prop<Dog | GUID>("dog1");

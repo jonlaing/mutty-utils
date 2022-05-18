@@ -1,4 +1,4 @@
-/// <reference types="ts-toolbelt" />
+/// <reference types=".pnpm/ts-toolbelt@6.15.5/node_modules/ts-toolbelt" />
 import { GUID } from "../types/GUID";
 import { Like, Likeable } from "../types/Like";
 import { Firestore } from "../types/Firestore";

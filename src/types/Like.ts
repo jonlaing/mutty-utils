@@ -9,7 +9,7 @@ export interface Like extends ProcessedDoc {
   type: LikeableType;
 }
 
-export interface LikeBuilder extends DocBuilder<Like> {}
+export type LikeBuilder = DocBuilder<Like>;
 
 export interface Likeable extends Omit<ProcessedDoc, "created"> {
   likes: number;

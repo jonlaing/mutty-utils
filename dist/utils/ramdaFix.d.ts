@@ -1,4 +1,4 @@
-/// <reference types="ts-toolbelt" />
+/// <reference types=".pnpm/ts-toolbelt@6.15.5/node_modules/ts-toolbelt" />
 export declare const not: import("Function/Curry").Curry<(f: (x: any) => boolean, vals: any) => boolean>;
 export declare const or: import("Function/Curry").Curry<(f: (x: any) => boolean, g: (x: any) => boolean, v: any) => boolean>;
 export declare const and: import("Function/Curry").Curry<(f: (x: any) => boolean, g: (x: any) => boolean, v: any) => boolean>;

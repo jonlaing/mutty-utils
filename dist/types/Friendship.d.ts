@@ -12,5 +12,4 @@ export interface Friendship extends ProcessedDoc, EmbeddableFields<FriendEmbedMa
     status: FriendshipStatus;
     block: GUID;
 }
-export interface FriendshipBuilder extends DocBuilder<Friendship> {
-}
+export declare type FriendshipBuilder = DocBuilder<Friendship>;

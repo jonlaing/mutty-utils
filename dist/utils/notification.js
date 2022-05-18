@@ -77,7 +77,7 @@ R.values, R.unnest, R.sortBy(R.prop("created")), R.reverse);
 const stringifyNotif = (notif, fromHuman, fromDogs) => {
     switch (notif.actionType) {
         case "like":
-            if (!!fromHuman)
+            if (fromHuman)
                 return `@${fromHuman.username} liked your ${notif.contentType}`;
             return `Someone liked your ${notif.contentType}`;
         case "comment":

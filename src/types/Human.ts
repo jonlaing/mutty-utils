@@ -20,4 +20,4 @@ export interface Human extends ProcessedDoc, EmbeddableFields<HumanEmbedMap> {
   recentLocation?: string;
 }
 
-export interface HumanBuider extends DocBuilder<Human> {}
+export type HumanBuider = DocBuilder<Human>;

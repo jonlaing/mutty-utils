@@ -16,8 +16,7 @@ export interface Notification extends ProcessedDoc {
   read: boolean;
 }
 
-export interface NotificationBuilder
-  extends DocBuilder<Omit<Notification, "read">> {}
+export type NotificationBuilder = DocBuilder<Omit<Notification, "read">>;
 
 export interface LikeNotifIface extends Likeable {
   summary?: string;

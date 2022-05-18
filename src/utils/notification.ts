@@ -100,26 +100,26 @@ export const stringifyNotif = (
   fromDogs: Dog[]
 ) => {
   switch (notif.actionType) {
-    case "like":
-      if (!!fromHuman)
-        return `@${fromHuman.username} liked your ${notif.contentType}`;
-      return `Someone liked your ${notif.contentType}`;
-    case "comment":
-      const from =
+  case "like":
+    if (fromHuman)
+      return `@${fromHuman.username} liked your ${notif.contentType}`;
+    return `Someone liked your ${notif.contentType}`;
+  case "comment":
+    const from =
         fromDogs.length > 0
           ? nameList(fromDogs.map((d) => d.fullName))
           : "Someone";
-      return `${from} commented on your ${notif.contentType}`;
-    case "friend":
-      if (fromDogs.length > 0) {
-        return `${nameList(
-          fromDogs.map((d) => d.fullName)
-        )} requested to be friends!`;
-      } else {
-        return "New Friend request!";
-      }
-    case "tag":
-      return `Your dog was tagged in a ${notif.contentType}!`;
+    return `${from} commented on your ${notif.contentType}`;
+  case "friend":
+    if (fromDogs.length > 0) {
+      return `${nameList(
+        fromDogs.map((d) => d.fullName)
+      )} requested to be friends!`;
+    } else {
+      return "New Friend request!";
+    }
+  case "tag":
+    return `Your dog was tagged in a ${notif.contentType}!`;
   }
 };
 

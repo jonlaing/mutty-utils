@@ -31,13 +31,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.batchGetById = exports.batchGetByField = exports.batchGetByFieldWithConstraints = exports.batchField = exports.reduceQueryToDocs = exports.reduceDocs = exports.reduceQuery = exports.dataToDoc = void 0;
+exports.batchGetByField = exports.batchGetByFieldWithConstraints = exports.batchField = exports.reduceQueryToDocs = exports.reduceDocs = exports.reduceQuery = exports.dataToDoc = void 0;
 const R = __importStar(require("ramda"));
-const firebase_1 = __importDefault(require("firebase"));
 const dataToDoc = (res) => {
     var _a;
     const data = res.data();
@@ -81,10 +77,4 @@ function batchGetByField(query, field, vals) {
     });
 }
 exports.batchGetByField = batchGetByField;
-function batchGetById(query, ids) {
-    return __awaiter(this, void 0, void 0, function* () {
-        return batchGetByField(query, firebase_1.default.firestore.FieldPath.documentId(), ids);
-    });
-}
-exports.batchGetById = batchGetById;
 //# sourceMappingURL=firestore.js.map

@@ -1,9 +1,7 @@
-import { GUID } from "../types/GUID";
 import * as R from "ramda";
 import { QueryConstraintSyncFn } from "../types/Query";
 import { ProcessedDoc } from "../types/FirestoreBaseTypes";
 import { DocumentData, FieldPath, Query } from "../types/Firestore";
-import firebase from "firebase";
 
 export const dataToDoc = <T extends ProcessedDoc>(res: DocumentData) => {
   const data = res.data();
@@ -75,15 +73,4 @@ export async function batchGetByField<T extends ProcessedDoc, U = string>(
   const docBatch = await Promise.all(promiseBatch);
   const docs = R.unnest(docBatch);
   return docs;
-}
-
-export async function batchGetById<T extends ProcessedDoc>(
-  query: Query,
-  ids: GUID[]
-): Promise<T[]> {
-  return batchGetByField<T, GUID>(
-    query,
-    firebase.firestore.FieldPath.documentId(),
-    ids
-  );
 }

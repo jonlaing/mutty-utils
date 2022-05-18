@@ -9,5 +9,4 @@ export interface Relationship extends ProcessedDoc, EmbeddableFields<Relationshi
     user: GUID;
     type: RelationshipType;
 }
-export interface RelationshipBuilder extends DocBuilder<Relationship> {
-}
+export declare type RelationshipBuilder = DocBuilder<Relationship>;

@@ -1,6 +1,6 @@
 import { lens } from "shonad/control";
 import { maybe } from "shonad/data";
-import { Bulletin, BulletinType, Contact, GUID, Location } from "../types";
+import { BulletinType, Contact, GUID } from "../types";
 
 export namespace bulletin {
   export const contentID = lens.prop<GUID>("contentId");

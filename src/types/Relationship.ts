@@ -19,4 +19,4 @@ export interface Relationship
   type: RelationshipType;
 }
 
-export interface RelationshipBuilder extends DocBuilder<Relationship> {}
+export type RelationshipBuilder = DocBuilder<Relationship>;

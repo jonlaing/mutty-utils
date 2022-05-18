@@ -1,4 +1,4 @@
-import { ProcessedDoc, DocBuilder, HasTimestamp } from "./FirestoreBaseTypes";
+import { DocBuilder, HasTimestamp, ProcessedDoc } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
 
 export type FlagType = "not-dog" | "inappropriate" | "spam" | "other";
@@ -16,4 +16,4 @@ export interface Flag extends ProcessedDoc, HasTimestamp {
   type: FlagType;
 }
 
-export interface FlagBuilder extends DocBuilder<Flag> {}
+export type FlagBuilder = DocBuilder<Flag>;

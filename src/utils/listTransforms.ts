@@ -1,15 +1,11 @@
 import * as R from "ramda";
-import { Bulletin } from "../types/Bulletin";
-import { Dog } from "../types/Dog";
-import { EmbedField, Liked, TypedContainer } from "../types/FirestoreBaseTypes";
-import { GUID } from "../types/GUID";
+import { TypedContainer } from "../types/FirestoreBaseTypes";
 import {
   LikedDogContent,
   MultiBulletin,
   MultiDoc,
   MultiPost,
 } from "../types/MultiDoc";
-import { Post } from "../types/Post";
 
 export const fillList = (length: number, arr: any[]) =>
   // TODO: fix these anys. Typescript wasn't happy about my Ramda magic
@@ -30,18 +26,18 @@ export function collectMultiDocs<T extends LikedDogContent>(
       key === "undefined" // posts with no contentid will be "undefined" so we're ignoring them
         ? ds.map((d) => ({ ...d, dogs: [d.dog] } as MultiDoc<T>)) // but we will populate the dogs field
         : R.reduce(
-            // take the first post and put the other dogs into it, cumulating likes and stuff
-            (acc, d) => {
-              return {
-                ...d,
-                dogs: R.uniq([...(acc.dogs || []), d.dog]), // the uniq protects against double posts
-                liked: acc.liked || d.liked,
-                likes: (acc.likes | 0) + (d.likes | 0),
-              } as MultiDoc<T>;
-            },
+          // take the first post and put the other dogs into it, cumulating likes and stuff
+          (acc, d) => {
+            return {
+              ...d,
+              dogs: R.uniq([...(acc.dogs || []), d.dog]), // the uniq protects against double posts
+              liked: acc.liked || d.liked,
+              likes: (acc.likes | 0) + (d.likes | 0),
+            } as MultiDoc<T>;
+          },
             {} as MultiDoc<T>,
             ds
-          )
+        )
     ),
     R.values, // take the values, which will have a mostly flat list, except for the "undefined" case
     R.unnest // unnest the "undefined" case and return a flat list of posts

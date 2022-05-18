@@ -13,8 +13,7 @@ export interface Notification extends ProcessedDoc {
     summary?: string;
     read: boolean;
 }
-export interface NotificationBuilder extends DocBuilder<Omit<Notification, "read">> {
-}
+export declare type NotificationBuilder = DocBuilder<Omit<Notification, "read">>;
 export interface LikeNotifIface extends Likeable {
     summary?: string;
 }

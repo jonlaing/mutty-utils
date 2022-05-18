@@ -1,4 +1,3 @@
-import { GUID } from "../types/GUID";
 import { QueryConstraintSyncFn } from "../types/Query";
 import { ProcessedDoc } from "../types/FirestoreBaseTypes";
 import { DocumentData, FieldPath, Query } from "../types/Firestore";
@@ -9,4 +8,3 @@ export declare const reduceQueryToDocs: <T extends ProcessedDoc>(cs: QueryConstr
 export declare function batchField<U>(constraints: QueryConstraintSyncFn[], field: string | FieldPath, vals: U[]): QueryConstraintSyncFn[][];
 export declare function batchGetByFieldWithConstraints<T extends ProcessedDoc, U = string>(query: Query, field: string | FieldPath, constraints: QueryConstraintSyncFn<Query>[], vals: U[]): Promise<T[]>;
 export declare function batchGetByField<T extends ProcessedDoc, U = string>(query: Query, field: string | FieldPath, vals: U[]): Promise<T[]>;
-export declare function batchGetById<T extends ProcessedDoc>(query: Query, ids: GUID[]): Promise<T[]>;

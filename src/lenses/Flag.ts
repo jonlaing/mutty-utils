@@ -1,5 +1,5 @@
 import { lens } from "shonad/control";
-import { FlaggableType, FlagType, GUID } from "../types";
+import { FlagType, FlaggableType, GUID } from "../types";
 
 export namespace flag {
   export const userID = lens.prop<GUID>("userId");

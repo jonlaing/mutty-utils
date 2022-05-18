@@ -6,8 +6,7 @@ export interface Like extends ProcessedDoc {
     content: GUID;
     type: LikeableType;
 }
-export interface LikeBuilder extends DocBuilder<Like> {
-}
+export declare type LikeBuilder = DocBuilder<Like>;
 export interface Likeable extends Omit<ProcessedDoc, "created"> {
     likes: number;
     created: number;
