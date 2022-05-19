@@ -36,7 +36,7 @@ String representing the breed of the dog
 
 #### Defined in
 
-[src/types/Dog.ts:20](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L20)
+[src/types/Dog.ts:20](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L20)
 
 ___
 
@@ -52,7 +52,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -64,7 +64,7 @@ Zero-index day the dog was born
 
 #### Defined in
 
-[src/types/Dog.ts:26](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L26)
+[src/types/Dog.ts:26](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L26)
 
 ___
 
@@ -76,7 +76,7 @@ Full name of the dog
 
 #### Defined in
 
-[src/types/Dog.ts:16](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L16)
+[src/types/Dog.ts:16](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L16)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -102,7 +102,7 @@ Content ID for the a `lostdog` [Bulletin](Bulletin.md)
 
 #### Defined in
 
-[src/types/Dog.ts:30](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L30)
+[src/types/Dog.ts:30](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L30)
 
 ___
 
@@ -114,7 +114,7 @@ Zero-indexed month the dog was born
 
 #### Defined in
 
-[src/types/Dog.ts:24](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L24)
+[src/types/Dog.ts:24](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L24)
 
 ___
 
@@ -126,7 +126,7 @@ List of URIs to profile pictures.
 
 #### Defined in
 
-[src/types/Dog.ts:18](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L18)
+[src/types/Dog.ts:18](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L18)
 
 ___
 
@@ -140,7 +140,7 @@ EmbeddableFields.relationship
 
 #### Defined in
 
-[src/types/Dog.ts:11](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L11)
+[src/types/Dog.ts:11](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L11)
 
 ___
 
@@ -152,7 +152,7 @@ Profile text
 
 #### Defined in
 
-[src/types/Dog.ts:28](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L28)
+[src/types/Dog.ts:28](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L28)
 
 ___
 
@@ -164,4 +164,4 @@ Year the dog was born
 
 #### Defined in
 
-[src/types/Dog.ts:22](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Dog.ts#L22)
+[src/types/Dog.ts:22](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Dog.ts#L22)

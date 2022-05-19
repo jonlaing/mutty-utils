@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/types/Post.ts:36](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L36)
+[src/types/Post.ts:36](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L36)

@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[src/types/User.ts:11](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/User.ts#L11)
+[src/types/User.ts:11](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L11)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:12](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/User.ts#L12)
+[src/types/User.ts:12](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L12)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:13](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/User.ts#L13)
+[src/types/User.ts:13](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L13)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:14](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/User.ts#L14)
+[src/types/User.ts:14](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L14)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:15](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/User.ts#L15)
+[src/types/User.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L15)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:16](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/User.ts#L16)
+[src/types/User.ts:16](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L16)

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.uid = exports.tenantID = exports.redirectEventId = exports.photoURL = exports.phoneNumber = exports.lastLoginAt = exports.isAnonymous = exports.emailVerified = exports.email = exports.displayName = exports.createdAt = exports.authDomain = exports.appName = exports.stsTokenManager = exports.firstProviderData = exports.providerData = exports.enrolledFactors = exports.multiFactor = exports.providerID = exports.isNewUser = exports.userRecord = exports.operationType = exports.credential = exports.additionalUserInfo = void 0;
+exports.user = exports.stsTokenManager = exports.firstProviderData = exports.providerData = exports.enrolledFactors = exports.multiFactor = exports.providerID = exports.isNewUser = exports.userRecord = exports.operationType = exports.credential = exports.additionalUserInfo = void 0;
 const control_1 = require("shonad/control");
 exports.additionalUserInfo = control_1.lens.prop("additionalUserInfo");
 exports.credential = control_1.lens.prop("credential");
@@ -15,17 +15,20 @@ exports.providerData = control_1.lens.compose(exports.userRecord, control_1.lens
 exports.firstProviderData = control_1.lens.compose(exports.providerData, control_1.lens.optional([]), control_1.lens.head);
 exports.stsTokenManager = control_1.lens.compose(exports.userRecord, control_1.lens.optional({}), control_1.lens.prop("stsTokenManager"));
 const maybeUser = control_1.lens.compose(exports.userRecord, control_1.lens.optional({}));
-exports.appName = control_1.lens.compose(maybeUser, control_1.lens.prop("appName"));
-exports.authDomain = control_1.lens.compose(maybeUser, control_1.lens.prop("authDomain"));
-exports.createdAt = control_1.lens.compose(maybeUser, control_1.lens.prop("createdAt"));
-exports.displayName = control_1.lens.compose(maybeUser, control_1.lens.prop("displayName"));
-exports.email = control_1.lens.compose(maybeUser, control_1.lens.prop("email"));
-exports.emailVerified = control_1.lens.compose(maybeUser, control_1.lens.prop("emailVerified"));
-exports.isAnonymous = control_1.lens.compose(maybeUser, control_1.lens.prop("isAnonymous"));
-exports.lastLoginAt = control_1.lens.compose(maybeUser, control_1.lens.prop("lastLoginAt"));
-exports.phoneNumber = control_1.lens.compose(maybeUser, control_1.lens.prop("phoneNumber"));
-exports.photoURL = control_1.lens.compose(maybeUser, control_1.lens.prop("photoURL"));
-exports.redirectEventId = control_1.lens.compose(maybeUser, control_1.lens.prop("redirectEventId"));
-exports.tenantID = control_1.lens.compose(maybeUser, control_1.lens.prop("tenantId"));
-exports.uid = control_1.lens.compose(maybeUser, control_1.lens.prop("uid"));
+var user;
+(function (user) {
+    user.appName = control_1.lens.compose(maybeUser, control_1.lens.prop("appName"));
+    user.authDomain = control_1.lens.compose(maybeUser, control_1.lens.prop("authDomain"));
+    user.createdAt = control_1.lens.compose(maybeUser, control_1.lens.prop("createdAt"));
+    user.displayName = control_1.lens.compose(maybeUser, control_1.lens.prop("displayName"));
+    user.email = control_1.lens.compose(maybeUser, control_1.lens.prop("email"));
+    user.emailVerified = control_1.lens.compose(maybeUser, control_1.lens.prop("emailVerified"));
+    user.isAnonymous = control_1.lens.compose(maybeUser, control_1.lens.prop("isAnonymous"));
+    user.lastLoginAt = control_1.lens.compose(maybeUser, control_1.lens.prop("lastLoginAt"));
+    user.phoneNumber = control_1.lens.compose(maybeUser, control_1.lens.prop("phoneNumber"));
+    user.photoURL = control_1.lens.compose(maybeUser, control_1.lens.prop("photoURL"));
+    user.redirectEventId = control_1.lens.compose(maybeUser, control_1.lens.prop("redirectEventId"));
+    user.tenantID = control_1.lens.compose(maybeUser, control_1.lens.prop("tenantId"));
+    user.uid = control_1.lens.compose(maybeUser, control_1.lens.prop("uid"));
+})(user = exports.user || (exports.user = {}));
 //# sourceMappingURL=User.js.map

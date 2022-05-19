@@ -24,4 +24,4 @@ Pretty much all records inherit this
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L9)

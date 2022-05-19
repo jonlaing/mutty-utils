@@ -13,3 +13,4 @@ export * from "./Post";
 export * from "./Relationship";
 export * from "./Timestamp";
 export * from "./TypedContainer";
+export * from "./User";

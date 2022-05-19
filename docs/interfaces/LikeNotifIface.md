@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/types/Like.ts:16](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Like.ts#L16)
+[src/types/Like.ts:16](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Like.ts#L16)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[src/types/Like.ts:15](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Like.ts#L15)
+[src/types/Like.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Like.ts#L15)
 
 ___
 
@@ -67,4 +67,4 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:22](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Notification.ts#L22)
+[src/types/Notification.ts:22](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Notification.ts#L22)

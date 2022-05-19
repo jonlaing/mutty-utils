@@ -39,7 +39,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:18](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L18)
+[src/types/Human.ts:18](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L18)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:16](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L16)
+[src/types/Human.ts:16](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L16)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:17](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L17)
+[src/types/Human.ts:17](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L17)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:20](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L20)
+[src/types/Human.ts:20](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L20)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:19](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L19)
+[src/types/Human.ts:19](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L19)
 
 ___
 
@@ -117,7 +117,7 @@ EmbeddableFields.relationship
 
 #### Defined in
 
-[src/types/Human.ts:10](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L10)
+[src/types/Human.ts:10](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L10)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:15](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L15)
+[src/types/Human.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L15)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:14](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Human.ts#L14)
+[src/types/Human.ts:14](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Human.ts#L14)

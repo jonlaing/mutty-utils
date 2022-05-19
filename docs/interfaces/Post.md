@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[src/types/Post.ts:21](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L21)
+[src/types/Post.ts:21](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L21)
 
 ___
 
@@ -51,7 +51,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -65,7 +65,7 @@ EmbeddableFields.dog
 
 #### Defined in
 
-[src/types/Post.ts:11](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L11)
+[src/types/Post.ts:11](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L11)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:25](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L25)
+[src/types/Post.ts:25](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L25)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:27](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L27)
+[src/types/Post.ts:27](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L27)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:22](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L22)
+[src/types/Post.ts:22](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L22)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:23](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L23)
+[src/types/Post.ts:23](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L23)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:24](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L24)
+[src/types/Post.ts:24](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L24)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:28](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L28)
+[src/types/Post.ts:28](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L28)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:20](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L20)
+[src/types/Post.ts:20](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L20)
 
 ___
 
@@ -159,4 +159,4 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:26](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/types/Post.ts#L26)
+[src/types/Post.ts:26](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Post.ts#L26)

@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[src/lenses/Comment.ts:9](https://github.com/jonlaing/mutty-utils/blob/c9372b5/src/lenses/Comment.ts#L9)
+[src/lenses/Comment.ts:9](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/lenses/Comment.ts#L9)

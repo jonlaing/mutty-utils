@@ -6,7 +6,7 @@ export declare const createdMoment: lens.Lens<unknown, unknown>;
 export declare const version: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<number>>;
 export declare const tags: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<Record<string, string>>>;
 export declare const dog: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string | Dog>>;
-export declare const user: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
+export declare const userProp: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 export declare const summary: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 export declare const author: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 export declare const image: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;

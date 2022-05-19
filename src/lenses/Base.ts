@@ -11,7 +11,7 @@ export const version = lens.prop<number>("version");
 export const tags = lens.prop<Record<string, GUID>>("tags");
 
 export const dog = lens.prop<Dog | GUID>("dog");
-export const user = lens.prop<GUID>("user");
+export const userProp = lens.prop<GUID>("user");
 
 export const summary = lens.prop<string>("summary");
 export const author = lens.prop<GUID>("author");
