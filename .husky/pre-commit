@@ -6,5 +6,4 @@ pnpm lint --fix
 pnpm test
 pnpm build
 pnpm build:docs
-pnpm uglify
 git add .

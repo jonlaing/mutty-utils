@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/types/User.ts:27](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L27)
+[src/types/User.ts:27](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L27)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:28](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L28)
+[src/types/User.ts:28](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L28)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:29](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L29)
+[src/types/User.ts:29](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L29)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:30](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L30)
+[src/types/User.ts:30](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L30)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:31](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L31)
+[src/types/User.ts:31](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L31)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:32](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L32)
+[src/types/User.ts:32](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L32)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:33](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L33)
+[src/types/User.ts:33](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L33)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:34](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L34)
+[src/types/User.ts:34](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L34)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:35](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L35)
+[src/types/User.ts:35](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L35)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:36](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L36)
+[src/types/User.ts:36](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L36)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:37](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L37)
+[src/types/User.ts:37](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L37)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:38](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L38)
+[src/types/User.ts:38](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L38)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:39](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L39)
+[src/types/User.ts:39](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L39)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:40](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L40)
+[src/types/User.ts:40](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L40)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:41](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L41)
+[src/types/User.ts:41](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L41)
 
 ___
 
@@ -182,7 +182,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:42](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L42)
+[src/types/User.ts:42](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L42)
 
 ___
 
@@ -192,4 +192,4 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:43](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/User.ts#L43)
+[src/types/User.ts:43](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/User.ts#L43)

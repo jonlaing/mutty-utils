@@ -20,7 +20,7 @@ Contact fields for [Bulletin](Bulletin.md). Currently we don't really use `other
 
 #### Defined in
 
-[src/types/Bulletin.ts:32](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Bulletin.ts#L32)
+[src/types/Bulletin.ts:32](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L32)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:33](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Bulletin.ts#L33)
+[src/types/Bulletin.ts:33](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L33)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:31](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/types/Bulletin.ts#L31)
+[src/types/Bulletin.ts:31](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L31)

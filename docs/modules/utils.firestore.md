@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[src/utils/firestore.ts:30](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L30)
+[src/utils/firestore.ts:30](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L30)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/utils/firestore.ts:63](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L63)
+[src/utils/firestore.ts:63](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L63)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/utils/firestore.ts:44](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L44)
+[src/utils/firestore.ts:44](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L44)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[src/utils/firestore.ts:6](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L6)
+[src/utils/firestore.ts:6](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L6)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/utils/firestore.ts:20](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L20)
+[src/utils/firestore.ts:20](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L20)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[src/utils/firestore.ts:15](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L15)
+[src/utils/firestore.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L15)
 
 ___
 
@@ -201,4 +201,4 @@ ___
 
 #### Defined in
 
-[src/utils/firestore.ts:23](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/firestore.ts#L23)
+[src/utils/firestore.ts:23](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/firestore.ts#L23)

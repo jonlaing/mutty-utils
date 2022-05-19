@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[src/utils/ramdaFix.ts:8](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/ramdaFix.ts#L8)
+[src/utils/ramdaFix.ts:8](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/ramdaFix.ts#L8)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[src/utils/ramdaFix.ts:25](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/ramdaFix.ts#L25)
+[src/utils/ramdaFix.ts:25](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/ramdaFix.ts#L25)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/utils/ramdaFix.ts:2](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/ramdaFix.ts#L2)
+[src/utils/ramdaFix.ts:2](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/ramdaFix.ts#L2)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[src/utils/ramdaFix.ts:4](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/ramdaFix.ts#L4)
+[src/utils/ramdaFix.ts:4](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/ramdaFix.ts#L4)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/utils/ramdaFix.ts:12](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/ramdaFix.ts#L12)
+[src/utils/ramdaFix.ts:12](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/ramdaFix.ts#L12)
 
 ___
 
@@ -181,4 +181,4 @@ ___
 
 #### Defined in
 
-[src/utils/ramdaFix.ts:17](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/utils/ramdaFix.ts#L17)
+[src/utils/ramdaFix.ts:17](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/ramdaFix.ts#L17)

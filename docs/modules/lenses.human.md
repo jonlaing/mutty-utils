@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[src/lenses/Human.ts:5](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/lenses/Human.ts#L5)
+[src/lenses/Human.ts:5](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/lenses/Human.ts#L5)

@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[src/lenses/Like.ts:5](https://github.com/jonlaing/mutty-utils/blob/3ab5f76/src/lenses/Like.ts#L5)
+[src/lenses/Like.ts:5](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/lenses/Like.ts#L5)
