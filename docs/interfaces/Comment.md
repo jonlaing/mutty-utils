@@ -33,7 +33,7 @@ The Content Id of the associated [Post](Post.md) or [Bulletin](Bulletin.md)
 
 #### Defined in
 
-[src/types/Comment.ts:24](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Comment.ts#L24)
+[src/types/Comment.ts:24](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L24)
 
 ___
 
@@ -49,7 +49,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -63,7 +63,7 @@ EmbeddableFields.dogs
 
 #### Defined in
 
-[src/types/Comment.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Comment.ts#L15)
+[src/types/Comment.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L15)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[src/types/Comment.ts:27](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Comment.ts#L27)
+[src/types/Comment.ts:27](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L27)
 
 ___
 
@@ -99,7 +99,7 @@ Text content of the Comment
 
 #### Defined in
 
-[src/types/Comment.ts:26](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Comment.ts#L26)
+[src/types/Comment.ts:26](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L26)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[src/types/Comment.ts:29](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Comment.ts#L29)
+[src/types/Comment.ts:29](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L29)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-[src/types/Comment.ts:22](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Comment.ts#L22)
+[src/types/Comment.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L22)

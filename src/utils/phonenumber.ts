@@ -1,6 +1,6 @@
 import * as R from "ramda";
-import { functions as Fn } from "shonad/base";
-import { maybe } from "shonad/data";
+import { func } from "shonad";
+import { maybe } from "shonad";
 
 type PhoneNumber = [string, string, string, string];
 
@@ -21,4 +21,4 @@ export const parseAndFormat = (userInput: string) =>
   maybe.fmap(formatForAuth, parse(userInput));
 
 export const parseAndCompress = (input: string) =>
-  maybe.fmap<Fn.Function<PhoneNumber, string>>(R.join(""), parse(input));
+  maybe.fmap<func.Function<PhoneNumber, string>>(R.join(""), parse(input));

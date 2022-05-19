@@ -1,6 +1,11 @@
-import { lens } from "shonad/control";
+import { lens, maybe } from "shonad";
 import { Dog, GUID } from "../types";
 import { momentLens } from "./Timestamp";
+
+export const safeLens = <T extends maybe.Maybe<any>, U>(
+  fallback: U,
+  f: lens.Lens<T, maybe.Maybe<U>>
+) => lens.compose<T, U>(f, lens.optional(fallback));
 
 export const id = lens.prop<string>("id");
 export const created = lens.prop<number>("created");

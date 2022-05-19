@@ -1,7 +1,7 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { Location } from "../types";
 import { Geopoint } from "../types/Geopoint";
-import { maybe } from "shonad/data";
+import { maybe } from "shonad";
 export declare const geopoint: lens.Lens<any, maybe.Maybe<Geopoint>>;
 export declare const name: lens.Lens<any, maybe.Maybe<string>>;
 export declare const location: lens.Lens<any, maybe.Maybe<Location>>;

@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/utils/strings.ts:3](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/strings.ts#L3)
+[src/utils/strings.ts:3](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/strings.ts#L3)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/utils/strings.ts:12](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/strings.ts#L12)
+[src/utils/strings.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/strings.ts#L12)

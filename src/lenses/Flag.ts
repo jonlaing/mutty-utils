@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { FlagType, FlaggableType, GUID } from "../types";
 
 export namespace flag {

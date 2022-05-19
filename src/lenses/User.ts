@@ -1,5 +1,5 @@
-import { lens } from "shonad/control";
-import { maybe } from "shonad/data";
+import { lens } from "shonad";
+import { maybe } from "shonad";
 import {
   AdditionalUserInfo,
   GUID,

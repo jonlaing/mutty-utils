@@ -28,4 +28,4 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)

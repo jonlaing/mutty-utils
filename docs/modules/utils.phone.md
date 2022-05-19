@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/utils/phonenumber.ts:23](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/phonenumber.ts#L23)
+[src/utils/phonenumber.ts:23](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/phonenumber.ts#L23)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/utils/phonenumber.ts:20](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/phonenumber.ts#L20)
+[src/utils/phonenumber.ts:20](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/phonenumber.ts#L20)

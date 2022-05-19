@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 export declare namespace human {
     const userID: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 }

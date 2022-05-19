@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/types/GUID.ts:5](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/GUID.ts#L5)
+[src/types/GUID.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/GUID.ts#L5)

@@ -34,7 +34,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -48,7 +48,7 @@ EmbeddableFields.dog
 
 #### Defined in
 
-[src/types/Relationship.ts:12](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Relationship.ts#L12)
+[src/types/Relationship.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Relationship.ts#L12)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[src/types/Relationship.ts:19](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Relationship.ts#L19)
+[src/types/Relationship.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Relationship.ts#L19)
 
 ___
 
@@ -82,4 +82,4 @@ ___
 
 #### Defined in
 
-[src/types/Relationship.ts:18](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Relationship.ts#L18)
+[src/types/Relationship.ts:18](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Relationship.ts#L18)

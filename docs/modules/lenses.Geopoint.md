@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/lenses/Geopoint.ts:3](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/lenses/Geopoint.ts#L3)
+[src/lenses/Geopoint.ts:3](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Geopoint.ts#L3)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/lenses/Geopoint.ts:4](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/lenses/Geopoint.ts#L4)
+[src/lenses/Geopoint.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Geopoint.ts#L4)

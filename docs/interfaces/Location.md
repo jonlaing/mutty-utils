@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/types/Location.ts:4](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Location.ts#L4)
+[src/types/Location.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Location.ts#L4)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/types/Location.ts:5](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Location.ts#L5)
+[src/types/Location.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Location.ts#L5)

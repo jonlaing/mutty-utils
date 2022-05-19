@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/types/Advertiser.ts:4](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Advertiser.ts#L4)
+[src/types/Advertiser.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Advertiser.ts#L4)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[src/types/Advertiser.ts:6](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Advertiser.ts#L6)
+[src/types/Advertiser.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Advertiser.ts#L6)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[src/types/Advertiser.ts:5](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Advertiser.ts#L5)
+[src/types/Advertiser.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Advertiser.ts#L5)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/types/Advertiser.ts:7](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Advertiser.ts#L7)
+[src/types/Advertiser.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Advertiser.ts#L7)

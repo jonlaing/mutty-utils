@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { LikeableType } from "../types";
 export declare namespace like {
     const contentID: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;

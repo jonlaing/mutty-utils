@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { Dog, GUID } from "../types";
 
 export const dogs = lens.prop<Dog[]>("dogs");

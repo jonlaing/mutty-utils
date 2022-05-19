@@ -24,7 +24,7 @@ specifiers:
   moment: ^2.29.3
   prettier: ^2.6.2
   ramda: ^0.28.0
-  shonad: https://github.com/jonlaing/shonad
+  shonad: github:jonlaing/shonad
   ts-jest: ^28.0.2
   ts-node: ^10.7.0
   ts-toolbelt: ^9.6.0
@@ -40,7 +40,7 @@ dependencies:
   firebase-admin: 10.2.0_rpd4ipbmnh3eak32lkxgflhihy
   moment: 2.29.3
   ramda: 0.28.0
-  shonad: github.com/jonlaing/shonad/1bf7d4d97949678d5028f0826eecb8165ab63db5
+  shonad: github.com/jonlaing/shonad/b68ed04ff35c0323f8643d0f0602e660257ea00f
   uuid: 8.3.2
 
 devDependencies:
@@ -4684,8 +4684,8 @@ packages:
     dev: false
     optional: true
 
-  github.com/jonlaing/shonad/1bf7d4d97949678d5028f0826eecb8165ab63db5:
-    resolution: {tarball: https://codeload.github.com/jonlaing/shonad/tar.gz/1bf7d4d97949678d5028f0826eecb8165ab63db5}
+  github.com/jonlaing/shonad/b68ed04ff35c0323f8643d0f0602e660257ea00f:
+    resolution: {tarball: https://codeload.github.com/jonlaing/shonad/tar.gz/b68ed04ff35c0323f8643d0f0602e660257ea00f}
     name: shonad
     version: 1.0.0
     prepare: true

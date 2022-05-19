@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { MultiBulletin, MultiPost } from "../types/MultiDoc";
 
 export const containerType = lens.prop<string>("type");

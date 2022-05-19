@@ -1,5 +1,4 @@
-import { lens } from "shonad/control";
-import { maybe } from "shonad/data";
+import { lens, maybe } from "shonad";
 import { Dog, Friendship, FriendshipStatus } from "../types";
 export declare const dog1: lens.Lens<any, maybe.Maybe<string | Dog>>;
 export declare const dog2: lens.Lens<any, maybe.Maybe<string | Dog>>;

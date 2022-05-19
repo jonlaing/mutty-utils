@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { ActionType, ContentType } from "../types/Notification";
 export declare namespace notification {
     const contentID: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;

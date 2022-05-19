@@ -1,5 +1,5 @@
-import { lens } from "shonad/control";
-import { maybe } from "shonad/data";
+import { lens } from "shonad";
+import { maybe } from "shonad";
 import { Video } from "../types";
 export declare namespace post {
     const contentID: lens.Lens<any, maybe.Maybe<string>>;

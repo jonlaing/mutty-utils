@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[src/utils/notification.ts:42](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L42)
+[src/utils/notification.ts:42](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L42)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:59](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L59)
+[src/utils/notification.ts:59](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L59)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:46](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L46)
+[src/utils/notification.ts:46](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L46)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:11](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L11)
+[src/utils/notification.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L11)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:24](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L24)
+[src/utils/notification.ts:24](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L24)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:70](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L70)
+[src/utils/notification.ts:70](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L70)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:126](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L126)
+[src/utils/notification.ts:126](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L126)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-[src/utils/notification.ts:97](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/notification.ts#L97)
+[src/utils/notification.ts:97](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/notification.ts#L97)

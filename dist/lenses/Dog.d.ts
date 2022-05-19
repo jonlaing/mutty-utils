@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { Relationship } from "../types";
 export declare const fullName: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 export declare const pics: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string[]>>;

@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[src/types/Bulletin.ts:85](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L85)
+[src/types/Bulletin.ts:85](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L85)
 
 ___
 
@@ -54,7 +54,7 @@ Set whether a Bulletin can be commented on.
 
 #### Defined in
 
-[src/types/Bulletin.ts:68](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L68)
+[src/types/Bulletin.ts:68](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L68)
 
 ___
 
@@ -69,7 +69,7 @@ Users.
 
 #### Defined in
 
-[src/types/Bulletin.ts:74](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L74)
+[src/types/Bulletin.ts:74](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L74)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:95](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L95)
+[src/types/Bulletin.ts:95](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L95)
 
 ___
 
@@ -93,7 +93,7 @@ same Bulletin, and use the `contentId` to associate them.
 
 #### Defined in
 
-[src/types/Bulletin.ts:46](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L46)
+[src/types/Bulletin.ts:46](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L46)
 
 ___
 
@@ -109,7 +109,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -125,7 +125,7 @@ the start date of the campaign.
 
 #### Defined in
 
-[src/types/Bulletin.ts:93](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L93)
+[src/types/Bulletin.ts:93](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L93)
 
 ___
 
@@ -137,7 +137,7 @@ Description of the Bulletin
 
 #### Defined in
 
-[src/types/Bulletin.ts:66](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L66)
+[src/types/Bulletin.ts:66](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L66)
 
 ___
 
@@ -151,7 +151,7 @@ EmbeddableFields.dog
 
 #### Defined in
 
-[src/types/Bulletin.ts:24](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L24)
+[src/types/Bulletin.ts:24](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L24)
 
 ___
 
@@ -163,7 +163,7 @@ Set whether the dog has been found
 
 #### Defined in
 
-[src/types/Bulletin.ts:99](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L99)
+[src/types/Bulletin.ts:99](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L99)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:94](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L94)
+[src/types/Bulletin.ts:94](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L94)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -199,7 +199,7 @@ The display image of the Bulletin
 
 #### Defined in
 
-[src/types/Bulletin.ts:78](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L78)
+[src/types/Bulletin.ts:78](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L78)
 
 ___
 
@@ -211,7 +211,7 @@ The number of likes
 
 #### Defined in
 
-[src/types/Bulletin.ts:84](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L84)
+[src/types/Bulletin.ts:84](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L84)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:48](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L48)
+[src/types/Bulletin.ts:48](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L48)
 
 ___
 
@@ -246,7 +246,7 @@ const locationIDs = utils.coordToMatrix(latitude, longitude, 1);
 
 #### Defined in
 
-[src/types/Bulletin.ts:62](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L62)
+[src/types/Bulletin.ts:62](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L62)
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:80](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L80)
+[src/types/Bulletin.ts:80](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L80)
 
 ___
 
@@ -270,7 +270,7 @@ Title of the Bulletin. This is overwritten for [`lostdog`](../modules.md#bulleti
 
 #### Defined in
 
-[src/types/Bulletin.ts:64](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L64)
+[src/types/Bulletin.ts:64](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L64)
 
 ___
 
@@ -282,4 +282,4 @@ User id for the [User](User.md) that authored the record.
 
 #### Defined in
 
-[src/types/Bulletin.ts:40](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Bulletin.ts#L40)
+[src/types/Bulletin.ts:40](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L40)

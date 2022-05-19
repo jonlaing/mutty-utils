@@ -25,17 +25,17 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.parseAndCompress = exports.parseAndFormat = void 0;
 const R = __importStar(require("ramda"));
-const data_1 = require("shonad/data");
+const shonad_1 = require("shonad");
 const regex = /^(\+\d+)?\W*(\d{3})\W*(\d{3})\W*(\d{4})/;
 const parse = (userInput) => {
     const matches = userInput.match(regex);
     if (!matches)
-        return data_1.maybe.nothing();
-    return data_1.maybe.just([matches[1] || "+1", matches[2], matches[3], matches[4]]);
+        return shonad_1.maybe.nothing();
+    return shonad_1.maybe.just([matches[1] || "+1", matches[2], matches[3], matches[4]]);
 };
 const formatForAuth = (n) => `${n[0]} (${n[1]}) ${n[2]}-${n[3]}`;
-const parseAndFormat = (userInput) => data_1.maybe.fmap(formatForAuth, parse(userInput));
+const parseAndFormat = (userInput) => shonad_1.maybe.fmap(formatForAuth, parse(userInput));
 exports.parseAndFormat = parseAndFormat;
-const parseAndCompress = (input) => data_1.maybe.fmap(R.join(""), parse(input));
+const parseAndCompress = (input) => shonad_1.maybe.fmap(R.join(""), parse(input));
 exports.parseAndCompress = parseAndCompress;
 //# sourceMappingURL=phonenumber.js.map

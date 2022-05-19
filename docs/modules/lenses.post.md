@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[src/lenses/Post.ts:6](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/lenses/Post.ts#L6)
+[src/lenses/Post.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Post.ts#L6)

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.content = exports.containerType = void 0;
-const control_1 = require("shonad/control");
-exports.containerType = control_1.lens.prop("type");
-exports.content = control_1.lens.or(control_1.lens.prop("bulletin"), control_1.lens.prop("post"));
+const shonad_1 = require("shonad");
+exports.containerType = shonad_1.lens.prop("type");
+exports.content = shonad_1.lens.or(shonad_1.lens.prop("bulletin"), shonad_1.lens.prop("post"));
 //# sourceMappingURL=TypedContainer.js.map

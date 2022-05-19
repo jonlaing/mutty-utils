@@ -40,7 +40,7 @@
     "firebase-admin": "^10.2.0",
     "moment": "^2.29.3",
     "ramda": "^0.28.0",
-    "shonad": "https://github.com/jonlaing/shonad",
+    "shonad": "github:jonlaing/shonad",
     "uuid": "^8.3.2"
   },
   "scripts": {

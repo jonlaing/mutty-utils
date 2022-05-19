@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[src/types/Like.ts:8](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Like.ts#L8)
+[src/types/Like.ts:8](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L8)
 
 ___
 
@@ -42,7 +42,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/types/Like.ts:9](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Like.ts#L9)
+[src/types/Like.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L9)
 
 ___
 
@@ -76,4 +76,4 @@ ___
 
 #### Defined in
 
-[src/types/Like.ts:7](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/types/Like.ts#L7)
+[src/types/Like.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L7)

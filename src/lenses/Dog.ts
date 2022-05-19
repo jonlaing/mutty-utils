@@ -1,4 +1,4 @@
-import { lens } from "shonad/control";
+import { lens } from "shonad";
 import { GUID, Relationship } from "../types";
 
 export const fullName = lens.prop<string>("fullName");

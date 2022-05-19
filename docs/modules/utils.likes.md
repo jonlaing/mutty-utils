@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[src/utils/likes.ts:15](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/likes.ts#L15)
+[src/utils/likes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/likes.ts#L15)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/utils/likes.ts:17](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/likes.ts#L17)
+[src/utils/likes.ts:17](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/likes.ts#L17)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[src/utils/likes.ts:14](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/likes.ts#L14)
+[src/utils/likes.ts:14](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/likes.ts#L14)
 
 ___
 
@@ -117,4 +117,4 @@ ___
 
 #### Defined in
 
-[src/utils/likes.ts:7](https://github.com/jonlaing/mutty-utils/blob/3aaf626/src/utils/likes.ts#L7)
+[src/utils/likes.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/likes.ts#L7)
