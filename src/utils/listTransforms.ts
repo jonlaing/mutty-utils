@@ -1,4 +1,5 @@
 import * as R from "ramda";
+
 import { TypedContainer } from "../types/FirestoreBaseTypes";
 import {
   LikedDogContent,
@@ -26,18 +27,18 @@ export function collectMultiDocs<T extends LikedDogContent>(
       key === "undefined" // posts with no contentid will be "undefined" so we're ignoring them
         ? ds.map((d) => ({ ...d, dogs: [d.dog] } as MultiDoc<T>)) // but we will populate the dogs field
         : R.reduce(
-          // take the first post and put the other dogs into it, cumulating likes and stuff
-          (acc, d) => {
-            return {
-              ...d,
-              dogs: R.uniq([...(acc.dogs || []), d.dog]), // the uniq protects against double posts
-              liked: acc.liked || d.liked,
-              likes: (acc.likes | 0) + (d.likes | 0),
-            } as MultiDoc<T>;
-          },
+            // take the first post and put the other dogs into it, cumulating likes and stuff
+            (acc, d) => {
+              return {
+                ...d,
+                dogs: R.uniq([...(acc.dogs || []), d.dog]), // the uniq protects against double posts
+                liked: acc.liked || d.liked,
+                likes: (acc.likes | 0) + (d.likes | 0),
+              } as MultiDoc<T>;
+            },
             {} as MultiDoc<T>,
             ds
-        )
+          )
     ),
     R.values, // take the values, which will have a mostly flat list, except for the "undefined" case
     R.unnest // unnest the "undefined" case and return a flat list of posts

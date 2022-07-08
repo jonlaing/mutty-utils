@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/types/MultiDoc.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L12)
+[src/types/MultiDoc.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L12)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:8](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L8)
+[src/types/MultiDoc.ts:8](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L8)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L9)
+[src/types/MultiDoc.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L9)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L10)
+[src/types/MultiDoc.ts:10](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L10)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L11)
+[src/types/MultiDoc.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L11)

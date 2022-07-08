@@ -99,6 +99,18 @@
 ### Functions
 
 - [BulletinLensHelper](lenses.md#bulletinlenshelper)
+- [CommentLensHelper](lenses.md#commentlenshelper)
+- [DogLensHelper](lenses.md#doglenshelper)
+- [FlagLensHelper](lenses.md#flaglenshelper)
+- [FriendshipLensHelper](lenses.md#friendshiplenshelper)
+- [HumanLensHelper](lenses.md#humanlenshelper)
+- [LikeLensHelper](lenses.md#likelenshelper)
+- [MultiBulletinLensHelper](lenses.md#multibulletinlenshelper)
+- [MultiPostLensHelper](lenses.md#multipostlenshelper)
+- [NotificationLensHelper](lenses.md#notificationlenshelper)
+- [PostLensHelper](lenses.md#postlenshelper)
+- [RelationshipLensHelper](lenses.md#relationshiplenshelper)
+- [UserLensHelper](lenses.md#userlenshelper)
 - [safeLens](lenses.md#safelens)
 
 ## Variables
@@ -109,7 +121,7 @@
 
 #### Defined in
 
-[src/lenses/Notification.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Notification.ts#L11)
+[src/lenses/Notification.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L17)
 
 ___
 
@@ -119,7 +131,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:13](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L13)
+[src/lenses/User.ts:14](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L14)
 
 ___
 
@@ -129,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L22)
+[src/lenses/Base.ts:23](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L23)
 
 ___
 
@@ -139,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Friendship.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Friendship.ts#L10)
+[src/lenses/Friendship.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Friendship.ts#L17)
 
 ___
 
@@ -149,7 +161,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L6)
+[src/lenses/Dog.ts:7](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L7)
 
 ___
 
@@ -159,7 +171,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L15)
+[src/lenses/Bulletin.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L22)
 
 ___
 
@@ -169,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:13](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L13)
+[src/lenses/Bulletin.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L20)
 
 ___
 
@@ -179,7 +191,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:14](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L14)
+[src/lenses/Bulletin.ts:21](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L21)
 
 ___
 
@@ -189,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Comment.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Comment.ts#L6)
+[src/lenses/Comment.ts:7](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Comment.ts#L7)
 
 ___
 
@@ -199,7 +211,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L19)
+[src/lenses/Bulletin.ts:26](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L26)
 
 ___
 
@@ -209,7 +221,7 @@ ___
 
 #### Defined in
 
-[src/lenses/TypedContainer.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/TypedContainer.ts#L4)
+[src/lenses/TypedContainer.ts:5](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/TypedContainer.ts#L5)
 
 ___
 
@@ -219,7 +231,7 @@ ___
 
 #### Defined in
 
-[src/lenses/TypedContainer.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/TypedContainer.ts#L5)
+[src/lenses/TypedContainer.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/TypedContainer.ts#L6)
 
 ___
 
@@ -229,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L11)
+[src/lenses/Base.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L12)
 
 ___
 
@@ -239,7 +251,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L12)
+[src/lenses/Base.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L13)
 
 ___
 
@@ -249,7 +261,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L15)
+[src/lenses/User.ts:16](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L16)
 
 ___
 
@@ -259,7 +271,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L16)
+[src/lenses/Bulletin.ts:23](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L23)
 
 ___
 
@@ -269,7 +281,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L9)
+[src/lenses/Dog.ts:10](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L10)
 
 ___
 
@@ -279,7 +291,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L12)
+[src/lenses/Bulletin.ts:19](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L19)
 
 ___
 
@@ -289,7 +301,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:18](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L18)
+[src/lenses/Base.ts:19](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L19)
 
 ___
 
@@ -299,7 +311,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Friendship.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Friendship.ts#L4)
+[src/lenses/Friendship.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Friendship.ts#L11)
 
 ___
 
@@ -309,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Friendship.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Friendship.ts#L5)
+[src/lenses/Friendship.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Friendship.ts#L12)
 
 ___
 
@@ -319,7 +331,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:18](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L18)
+[src/lenses/Bulletin.ts:25](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L25)
 
 ___
 
@@ -329,7 +341,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Comment.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Comment.ts#L4)
+[src/lenses/Comment.ts:5](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Comment.ts#L5)
 
 ___
 
@@ -339,7 +351,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:30](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L30)
+[src/lenses/Bulletin.ts:37](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L37)
 
 ___
 
@@ -349,7 +361,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:17](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L17)
+[src/lenses/Bulletin.ts:24](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L24)
 
 ___
 
@@ -359,7 +371,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:37](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L37)
+[src/lenses/User.ts:38](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L38)
 
 ___
 
@@ -369,7 +381,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:50](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L50)
+[src/lenses/User.ts:51](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L51)
 
 ___
 
@@ -379,7 +391,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Flag.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Flag.ts#L9)
+[src/lenses/Flag.ts:10](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Flag.ts#L10)
 
 ___
 
@@ -389,7 +401,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Friendship.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Friendship.ts#L6)
+[src/lenses/Friendship.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Friendship.ts#L13)
 
 ___
 
@@ -399,7 +411,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Notification.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Notification.ts#L9)
+[src/lenses/Notification.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L15)
 
 ___
 
@@ -409,7 +421,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L4)
+[src/lenses/Dog.ts:5](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L5)
 
 ___
 
@@ -419,7 +431,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Location.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Location.ts#L7)
+[src/lenses/Location.ts:8](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Location.ts#L8)
 
 ___
 
@@ -429,7 +441,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L10)
+[src/lenses/Base.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L11)
 
 ___
 
@@ -439,7 +451,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:23](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L23)
+[src/lenses/Base.ts:24](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L24)
 
 ___
 
@@ -449,7 +461,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L19)
+[src/lenses/User.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L20)
 
 ___
 
@@ -459,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Location.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Location.ts#L12)
+[src/lenses/Location.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Location.ts#L13)
 
 ___
 
@@ -469,7 +481,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Like.ts:8](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Like.ts#L8)
+[src/lenses/Like.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Like.ts#L9)
 
 ___
 
@@ -479,7 +491,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Like.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Like.ts#L11)
+[src/lenses/Like.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Like.ts#L12)
 
 ___
 
@@ -489,7 +501,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Like.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Like.ts#L10)
+[src/lenses/Like.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Like.ts#L11)
 
 ___
 
@@ -499,7 +511,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Location.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Location.ts#L10)
+[src/lenses/Location.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Location.ts#L11)
 
 ___
 
@@ -509,7 +521,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L10)
+[src/lenses/Bulletin.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L17)
 
 ___
 
@@ -519,7 +531,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Location.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Location.ts#L19)
+[src/lenses/Location.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Location.ts#L20)
 
 ___
 
@@ -529,7 +541,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L10)
+[src/lenses/Dog.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L11)
 
 ___
 
@@ -539,7 +551,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Timestamp.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Timestamp.ts#L5)
+[src/lenses/Timestamp.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Timestamp.ts#L6)
 
 ___
 
@@ -549,7 +561,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:8](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L8)
+[src/lenses/Dog.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L9)
 
 ___
 
@@ -559,7 +571,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:31](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L31)
+[src/lenses/User.ts:32](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L32)
 
 ___
 
@@ -569,7 +581,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Location.ts:8](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Location.ts#L8)
+[src/lenses/Location.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Location.ts#L9)
 
 ___
 
@@ -579,7 +591,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L16)
+[src/lenses/User.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L17)
 
 ___
 
@@ -589,7 +601,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:34](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L34)
+[src/lenses/Bulletin.ts:41](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L41)
 
 ___
 
@@ -599,7 +611,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Human.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Human.ts#L10)
+[src/lenses/Human.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L11)
 
 ___
 
@@ -609,7 +621,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:26](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L26)
+[src/lenses/Bulletin.ts:33](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L33)
 
 ___
 
@@ -619,7 +631,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Human.ts:8](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Human.ts#L8)
+[src/lenses/Human.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L9)
 
 ___
 
@@ -629,7 +641,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L5)
+[src/lenses/Dog.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L6)
 
 ___
 
@@ -639,7 +651,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:43](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L43)
+[src/lenses/User.ts:44](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L44)
 
 ___
 
@@ -649,7 +661,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:25](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L25)
+[src/lenses/User.ts:26](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L26)
 
 ___
 
@@ -659,7 +671,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Human.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Human.ts#L9)
+[src/lenses/Human.ts:10](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L10)
 
 ___
 
@@ -669,7 +681,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Notification.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Notification.ts#L12)
+[src/lenses/Notification.ts:18](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L18)
 
 ___
 
@@ -679,7 +691,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Human.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Human.ts#L12)
+[src/lenses/Human.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L13)
 
 ___
 
@@ -689,7 +701,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Human.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Human.ts#L11)
+[src/lenses/Human.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L12)
 
 ___
 
@@ -699,7 +711,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Relationship.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Relationship.ts#L4)
+[src/lenses/Relationship.ts:5](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Relationship.ts#L5)
 
 ___
 
@@ -709,7 +721,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L11)
+[src/lenses/Dog.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L12)
 
 ___
 
@@ -719,7 +731,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Friendship.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Friendship.ts#L7)
+[src/lenses/Friendship.ts:14](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Friendship.ts#L14)
 
 ___
 
@@ -729,7 +741,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:56](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L56)
+[src/lenses/User.ts:57](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L57)
 
 ___
 
@@ -739,7 +751,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:21](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L21)
+[src/lenses/Base.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L22)
 
 ___
 
@@ -749,7 +761,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L16)
+[src/lenses/Base.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L17)
 
 ___
 
@@ -759,7 +771,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Post.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Post.ts#L11)
+[src/lenses/Post.ts:19](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L19)
 
 ___
 
@@ -769,7 +781,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L11)
+[src/lenses/Bulletin.ts:18](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L18)
 
 ___
 
@@ -779,7 +791,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Notification.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Notification.ts#L10)
+[src/lenses/Notification.ts:16](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L16)
 
 ___
 
@@ -789,7 +801,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Post.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Post.ts#L10)
+[src/lenses/Post.ts:18](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L18)
 
 ___
 
@@ -799,7 +811,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L19)
+[src/lenses/Base.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L20)
 
 ___
 
@@ -809,7 +821,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:17](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L17)
+[src/lenses/User.ts:18](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L18)
 
 ___
 
@@ -819,7 +831,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Human.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Human.ts#L7)
+[src/lenses/Human.ts:8](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L8)
 
 ___
 
@@ -829,7 +841,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:14](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L14)
+[src/lenses/Base.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L15)
 
 ___
 
@@ -839,7 +851,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Post.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Post.ts#L9)
+[src/lenses/Post.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L17)
 
 ___
 
@@ -849,7 +861,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Post.ts:17](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Post.ts#L17)
+[src/lenses/Post.ts:25](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L25)
 
 ___
 
@@ -859,7 +871,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Post.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Post.ts#L12)
+[src/lenses/Post.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L20)
 
 ___
 
@@ -869,19 +881,19 @@ ___
 
 #### Defined in
 
-[src/lenses/Dog.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Dog.ts#L7)
+[src/lenses/Dog.ts:8](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L8)
 
 ## Functions
 
 ### BulletinLensHelper
 
-▸ **BulletinLensHelper**(`b`): `Object`
+▸ **BulletinLensHelper**(`obj`): `Object`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `b` | `Maybe`<[`MultiBulletin`](../modules.md#multibulletin)\> |
+| `obj` | `Maybe`<[`Bulletin`](../interfaces/Bulletin.md)\> |
 
 #### Returns
 
@@ -889,23 +901,422 @@ ___
 
 | Name | Type |
 | :------ | :------ |
+| `bulletinType` | () => `string` |
 | `canComment` | () => `boolean` |
 | `canMessage` | () => `boolean` |
+| `contact` | () => { phone: () =\> string; email: () =\> string; other: () =\> string; } |
 | `contentId` | () => `string` |
+| `created` | () => `number` |
 | `date` | () => `number` |
 | `description` | () => `string` |
+| `dog` | () => `string` |
 | `dogFound` | () => `boolean` |
 | `endDate` | () => `number` |
+| `id` | () => `string` |
 | `image` | () => `string` |
 | `likes` | () => `number` |
+| `location` | () => { geopoint: () =\> { latitude: () =\> number; longitude: () =\> number; }; name: () =\> Required<string \| null\>; } |
 | `locationIDs` | () => `string`[] |
-| `tags` | () => `Record`<`string`, `string`\> |
+| `tags` | () => { [x: string]: () =\> string; } |
 | `title` | () => `string` |
 | `user` | () => `string` |
 
 #### Defined in
 
-[src/lenses/Bulletin.ts:39](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Bulletin.ts#L39)
+[src/lenses/Bulletin.ts:46](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L46)
+
+___
+
+### CommentLensHelper
+
+▸ **CommentLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Comment`](../interfaces/Comment.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `content` | () => `string` |
+| `created` | () => `number` |
+| `dogs` | () => `string`[] |
+| `id` | () => `string` |
+| `likes` | () => `number` |
+| `summary` | () => `string` |
+| `tags` | () => { [x: string]: () =\> string; } |
+| `user` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Comment.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Comment.ts#L13)
+
+___
+
+### DogLensHelper
+
+▸ **DogLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Dog`](../interfaces/Dog.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `breed` | () => `string` |
+| `created` | () => `number` |
+| `dayBorn` | () => `number` |
+| `fullName` | () => `string` |
+| `id` | () => `string` |
+| `missing` | () => `string` |
+| `monthBorn` | () => `number` |
+| `pics` | () => `string`[] |
+| `relationship` | () => `string` |
+| `summary` | () => `string` |
+| `verified` | () => `boolean` |
+| `yearBorn` | () => `number` |
+
+#### Defined in
+
+[src/lenses/Dog.ts:14](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Dog.ts#L14)
+
+___
+
+### FlagLensHelper
+
+▸ **FlagLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Flag`](../interfaces/Flag.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `contentId` | () => `string` |
+| `contentType` | () => `string` |
+| `created` | () => `number` |
+| `id` | () => `string` |
+| `type` | () => `string` |
+| `userId` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Flag.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Flag.ts#L12)
+
+___
+
+### FriendshipLensHelper
+
+▸ **FriendshipLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Friendship`](../interfaces/Friendship.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `author` | () => `string` |
+| `block` | () => `string` |
+| `created` | () => `number` |
+| `dog1` | () => `string` |
+| `dog2` | () => `string` |
+| `friendshipId` | () => `string` |
+| `id` | () => `string` |
+| `status` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Friendship.ts:29](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Friendship.ts#L29)
+
+___
+
+### HumanLensHelper
+
+▸ **HumanLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Human`](../interfaces/Human.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `created` | () => `number` |
+| `id` | () => `string` |
+| `pausePushNotifs` | () => `boolean` |
+| `phoneNumber` | () => `string` |
+| `pushToken` | () => `string` |
+| `recentLocation` | () => `string` |
+| `recoveryEmail` | () => `string` |
+| `relationship` | () => `string` |
+| `userid` | () => `string` |
+| `username` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Human.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Human.ts#L15)
+
+___
+
+### LikeLensHelper
+
+▸ **LikeLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Like`](../interfaces/Like.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `content` | () => `string` |
+| `created` | () => `number` |
+| `id` | () => `string` |
+| `type` | () => `string` |
+| `user` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Like.ts:14](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Like.ts#L14)
+
+___
+
+### MultiBulletinLensHelper
+
+▸ **MultiBulletinLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`MultiBulletin`](../modules.md#multibulletin)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `bulletinType` | () => `string` |
+| `canComment` | () => `boolean` |
+| `canMessage` | () => `boolean` |
+| `comments` | () => `number` |
+| `contact` | () => { phone: () =\> string; email: () =\> string; other: () =\> string; } |
+| `contentId` | () => `string` |
+| `created` | () => `number` |
+| `date` | () => `number` |
+| `description` | () => `string` |
+| `dog` | () => { fullName: () =\> string; pics: () =\> string[]; breed: () =\> string; yearBorn: () =\> number; monthBorn: () =\> number; dayBorn: () =\> number; summary: () =\> string; missing: () =\> string; verified: () =\> boolean; id: () =\> string; created: () =\> number; relationship: () =\> string; } |
+| `dogFound` | () => `boolean` |
+| `dogs` | () => { fullName: () =\> string; pics: () =\> string[]; breed: () =\> Required<string \| undefined\>; yearBorn: () =\> Required<number \| undefined\>; monthBorn: () =\> Required<number \| undefined\>; ... 6 more ...; relationship: () =\> Required<...\>; }[] |
+| `endDate` | () => `number` |
+| `id` | () => `string` |
+| `image` | () => `string` |
+| `liked` | () => `boolean` |
+| `likes` | () => `number` |
+| `location` | () => { geopoint: () =\> { latitude: () =\> number; longitude: () =\> number; }; name: () =\> Required<string \| null\>; } |
+| `locationIDs` | () => `string`[] |
+| `tags` | () => { [x: string]: () =\> string; } |
+| `title` | () => `string` |
+| `user` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Bulletin.ts:47](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Bulletin.ts#L47)
+
+___
+
+### MultiPostLensHelper
+
+▸ **MultiPostLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`MultiPost`](../modules.md#multipost)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `comments` | () => `number` |
+| `contentId` | () => `string` |
+| `created` | () => `number` |
+| `dog` | () => { fullName: () =\> string; pics: () =\> string[]; breed: () =\> string; yearBorn: () =\> number; monthBorn: () =\> number; dayBorn: () =\> number; summary: () =\> string; missing: () =\> string; verified: () =\> boolean; id: () =\> string; created: () =\> number; relationship: () =\> string; } |
+| `dogs` | () => { fullName: () =\> string; pics: () =\> string[]; breed: () =\> Required<string \| undefined\>; yearBorn: () =\> Required<number \| undefined\>; monthBorn: () =\> Required<number \| undefined\>; ... 6 more ...; relationship: () =\> Required<...\>; }[] |
+| `id` | () => `string` |
+| `image` | () => `string` |
+| `liked` | () => `boolean` |
+| `likes` | () => `number` |
+| `location` | () => { geopoint: () =\> { latitude: () =\> number; longitude: () =\> number; }; name: () =\> Required<string \| null\>; } |
+| `locationID` | () => `string` |
+| `summary` | () => `string` |
+| `tags` | () => { [x: string]: () =\> string; } |
+| `user` | () => `string` |
+| `video` | () => { uri: () =\> string; thumbnail: () =\> string; } |
+
+#### Defined in
+
+[src/lenses/Post.ts:32](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L32)
+
+___
+
+### NotificationLensHelper
+
+▸ **NotificationLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Notification`](../interfaces/Notification.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `actionType` | () => `string` |
+| `author` | () => `string` |
+| `contentId` | () => `string` |
+| `contentType` | () => `string` |
+| `created` | () => `number` |
+| `from` | () => `string`[] |
+| `id` | () => `string` |
+| `read` | () => `boolean` |
+| `summary` | () => `string` |
+| `to` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Notification.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L20)
+
+___
+
+### PostLensHelper
+
+▸ **PostLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Post`](../interfaces/Post.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `contentId` | () => `string` |
+| `created` | () => `number` |
+| `dog` | () => `string` |
+| `id` | () => `string` |
+| `image` | () => `string` |
+| `likes` | () => `number` |
+| `location` | () => { geopoint: () =\> { latitude: () =\> number; longitude: () =\> number; }; name: () =\> Required<string \| null\>; } |
+| `locationID` | () => `string` |
+| `summary` | () => `string` |
+| `tags` | () => { [x: string]: () =\> string; } |
+| `user` | () => `string` |
+| `video` | () => { uri: () =\> string; thumbnail: () =\> string; } |
+
+#### Defined in
+
+[src/lenses/Post.ts:31](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Post.ts#L31)
+
+___
+
+### RelationshipLensHelper
+
+▸ **RelationshipLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`Relationship`](../interfaces/Relationship.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `created` | () => `number` |
+| `dog` | () => `string` |
+| `id` | () => `string` |
+| `type` | () => `string` |
+| `user` | () => `string` |
+
+#### Defined in
+
+[src/lenses/Relationship.ts:7](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Relationship.ts#L7)
+
+___
+
+### UserLensHelper
+
+▸ **UserLensHelper**(`obj`): `Object`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `Maybe`<[`User`](../interfaces/User.md)\> |
+
+#### Returns
+
+`Object`
+
+| Name | Type |
+| :------ | :------ |
+| `additionalUserInfo` | () => { isNewUser: () =\> boolean; providerId: () =\> string; } |
+| `credential` | () => {}[] \| () => { [x: string]: (() =\> {}[]) \| (() =\> ...); } |
+| `operationType` | () => `string` |
+| `user` | () => { apiKey: () =\> string; appName: () =\> string; authDomain: () =\> string; createdAt: () =\> string; displayName: () =\> string; email: () =\> string; emailVerified: () =\> boolean; isAnonymous: () =\> boolean; lastLoginAt: () =\> string; ... 7 more ...; uid: () =\> string; } |
+
+#### Defined in
+
+[src/lenses/User.ts:122](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L122)
 
 ___
 
@@ -933,4 +1344,4 @@ ___
 
 #### Defined in
 
-[src/lenses/Base.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Base.ts#L5)
+[src/lenses/Base.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Base.ts#L6)

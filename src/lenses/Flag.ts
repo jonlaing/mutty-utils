@@ -1,5 +1,6 @@
-import { lens } from "shonad";
-import { FlagType, FlaggableType, GUID } from "../types";
+import { dict, lens } from "shonad";
+
+import { Flag, FlagType, FlaggableType, GUID, emptyFlag } from "../types";
 
 export namespace flag {
   export const userID = lens.prop<GUID>("userId");
@@ -7,3 +8,5 @@ export namespace flag {
   export const contentType = lens.prop<FlaggableType>("contentType");
 }
 export const flagType = lens.prop<FlagType>("type");
+
+export const FlagLensHelper = dict.makeDictHelper<Flag>(emptyFlag);

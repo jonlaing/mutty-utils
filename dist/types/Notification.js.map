@@ -1,1 +1,1 @@
-{"version":3,"file":"Notification.js","sourceRoot":"","sources":["../../src/types/Notification.ts"],"names":[],"mappings":""}
+{"version":3,"file":"Notification.js","sourceRoot":"","sources":["../../src/types/Notification.ts"],"names":[],"mappings":";;;AAkCa,QAAA,iBAAiB,GAAiB;IAC7C,EAAE,EAAE,EAAE;IACN,OAAO,EAAE,CAAC;IACV,MAAM,EAAE,EAAE;IACV,IAAI,EAAE,EAAE;IACR,EAAE,EAAE,EAAE;IACN,SAAS,EAAE,EAAE;IACb,WAAW,EAAE,MAAM;IACnB,UAAU,EAAE,MAAM;IAClB,OAAO,EAAE,EAAE;IACX,IAAI,EAAE,IAAI;CACX,CAAC"}

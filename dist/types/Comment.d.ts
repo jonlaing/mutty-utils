@@ -1,6 +1,6 @@
-import { GUID } from "./GUID";
 import { Dog } from "./Dog";
 import { DocBuilder, EmbeddableFields, ProcessedDoc } from "./FirestoreBaseTypes";
+import { GUID } from "./GUID";
 /**
  * Comments for {@link Post} and {@link Bulletin}.
  */
@@ -20,3 +20,4 @@ export interface Comment extends ProcessedDoc, EmbeddableFields<CommentEmbedMap>
     tags?: Record<string, GUID>;
 }
 export declare type CommentBuilder = DocBuilder<Comment>;
+export declare const emptyComment: Comment;

@@ -1,18 +1,27 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Post = void 0;
-var Post;
-(function (Post) {
-    Post.emptyPost = {
-        id: "",
-        user: "",
-        dog: "",
-        contentId: "",
-        location: {},
-        summary: "",
-        image: "",
-        likes: 0,
-        created: 0,
-    };
-})(Post = exports.Post || (exports.Post = {}));
+exports.emptyPost = void 0;
+exports.emptyPost = {
+    id: "",
+    created: 0,
+    contentId: "",
+    user: "",
+    location: {
+        geopoint: {
+            latitude: 0,
+            longitude: 0,
+        },
+        name: "",
+    },
+    locationID: "",
+    summary: "",
+    video: {
+        uri: "",
+        thumbnail: "",
+    },
+    image: "",
+    likes: 0,
+    tags: {},
+    dog: "",
+};
 //# sourceMappingURL=Post.js.map

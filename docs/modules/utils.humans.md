@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[src/utils/human.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/human.ts#L12)
+[src/utils/human.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/human.ts#L13)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/utils/human.ts:24](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/human.ts#L24)
+[src/utils/human.ts:25](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/human.ts#L25)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[src/utils/human.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/human.ts#L5)
+[src/utils/human.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/human.ts#L6)

@@ -6,9 +6,7 @@
 
 ### Namespaces
 
-- [Dog](modules/Dog.md)
 - [GUID](modules/GUID.md)
-- [Post](modules/Post.md)
 - [Timestamp](modules/Timestamp.md)
 - [lenses](modules/lenses.md)
 - [utils](modules/utils.md)
@@ -30,6 +28,7 @@
 - [Like](interfaces/Like.md)
 - [LikeNotifIface](interfaces/LikeNotifIface.md)
 - [Likeable](interfaces/Likeable.md)
+- [LikedDoc](interfaces/LikedDoc.md)
 - [LikedDogContent](interfaces/LikedDogContent.md)
 - [Location](interfaces/Location.md)
 - [MultiFactor](interfaces/MultiFactor.md)
@@ -93,15 +92,31 @@
 - [TypedContainer](modules.md#typedcontainer)
 - [WithComments](modules.md#withcomments)
 
+### Variables
+
+- [emptyBulletin](modules.md#emptybulletin)
+- [emptyComment](modules.md#emptycomment)
+- [emptyDog](modules.md#emptydog)
+- [emptyFlag](modules.md#emptyflag)
+- [emptyFriendship](modules.md#emptyfriendship)
+- [emptyHuman](modules.md#emptyhuman)
+- [emptyLike](modules.md#emptylike)
+- [emptyMultiBulletin](modules.md#emptymultibulletin)
+- [emptyMultiPost](modules.md#emptymultipost)
+- [emptyNotification](modules.md#emptynotification)
+- [emptyPost](modules.md#emptypost)
+- [emptyRelationship](modules.md#emptyrelationship)
+- [emptyUser](modules.md#emptyuser)
+
 ## Type aliases
 
 ### ActionType
 
-Ƭ **ActionType**: ``"like"`` \| ``"comment"`` \| ``"friend"`` \| ``"tag"``
+Ƭ **ActionType**: ``"none"`` \| ``"like"`` \| ``"comment"`` \| ``"friend"`` \| ``"tag"``
 
 #### Defined in
 
-[src/types/Notification.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L6)
+[src/types/Notification.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L12)
 
 ___
 
@@ -117,7 +132,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:102](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L102)
+[src/types/Bulletin.ts:102](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Bulletin.ts#L102)
 
 ___
 
@@ -135,7 +150,7 @@ ___
 
 #### Defined in
 
-[src/types/Bulletin.ts:23](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L23)
+[src/types/Bulletin.ts:23](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Bulletin.ts#L23)
 
 ___
 
@@ -148,7 +163,7 @@ so while `ad` is valid, it won't do anything in the interface.
 
 #### Defined in
 
-[src/types/Bulletin.ts:20](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Bulletin.ts#L20)
+[src/types/Bulletin.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Bulletin.ts#L20)
 
 ___
 
@@ -158,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/types/Comment.ts:32](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L32)
+[src/types/Comment.ts:32](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Comment.ts#L32)
 
 ___
 
@@ -176,17 +191,17 @@ ___
 
 #### Defined in
 
-[src/types/Comment.ts:14](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Comment.ts#L14)
+[src/types/Comment.ts:14](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Comment.ts#L14)
 
 ___
 
 ### ContentType
 
-Ƭ **ContentType**: ``"post"`` \| ``"comment"`` \| ``"photo"`` \| ``"dog"`` \| ``"bulletin"``
+Ƭ **ContentType**: ``"none"`` \| ``"post"`` \| ``"comment"`` \| ``"photo"`` \| ``"dog"`` \| ``"bulletin"``
 
 #### Defined in
 
-[src/types/Notification.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L5)
+[src/types/Notification.ts:5](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L5)
 
 ___
 
@@ -209,7 +224,7 @@ that are handled manually in older versions of the app. Using
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:105](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L105)
+[src/types/FirestoreBaseTypes.ts:105](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L105)
 
 ___
 
@@ -219,7 +234,7 @@ ___
 
 #### Defined in
 
-[src/types/Firestore.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Firestore.ts#L22)
+[src/types/Firestore.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Firestore.ts#L22)
 
 ___
 
@@ -229,7 +244,7 @@ ___
 
 #### Defined in
 
-[src/types/Dog.ts:33](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Dog.ts#L33)
+[src/types/Dog.ts:35](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Dog.ts#L35)
 
 ___
 
@@ -247,7 +262,7 @@ ___
 
 #### Defined in
 
-[src/types/Dog.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Dog.ts#L10)
+[src/types/Dog.ts:10](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Dog.ts#L10)
 
 ___
 
@@ -266,7 +281,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:62](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L62)
+[src/types/FirestoreBaseTypes.ts:62](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L62)
 
 ___
 
@@ -293,7 +308,7 @@ Ensures that the nested record is referenced as a string
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:57](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L57)
+[src/types/FirestoreBaseTypes.ts:57](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L57)
 
 ___
 
@@ -331,7 +346,7 @@ const comment: EmbedField<Comment, "dogs", Dog> = {
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:42](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L42)
+[src/types/FirestoreBaseTypes.ts:42](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L42)
 
 ___
 
@@ -352,7 +367,7 @@ Embeds all fields as nested records rather than id references
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:92](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L92)
+[src/types/FirestoreBaseTypes.ts:92](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L92)
 
 ___
 
@@ -382,7 +397,7 @@ export interface Comment
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:84](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L84)
+[src/types/FirestoreBaseTypes.ts:84](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L84)
 
 ___
 
@@ -392,7 +407,7 @@ ___
 
 #### Defined in
 
-[src/types/Firestore.ts:26](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Firestore.ts#L26)
+[src/types/Firestore.ts:26](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Firestore.ts#L26)
 
 ___
 
@@ -408,7 +423,7 @@ that's where I'm at for now.
 
 #### Defined in
 
-[src/types/Firestore.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Firestore.ts#L12)
+[src/types/Firestore.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Firestore.ts#L12)
 
 ___
 
@@ -418,7 +433,7 @@ ___
 
 #### Defined in
 
-[src/types/Flag.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L19)
+[src/types/Flag.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L20)
 
 ___
 
@@ -428,17 +443,17 @@ ___
 
 #### Defined in
 
-[src/types/Flag.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L4)
+[src/types/Flag.ts:4](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L4)
 
 ___
 
 ### FlaggableType
 
-Ƭ **FlaggableType**: ``"post"`` \| ``"comment"`` \| ``"photo"`` \| ``"profile"`` \| ``"bulletin"``
+Ƭ **FlaggableType**: ``"post"`` \| ``"comment"`` \| ``"photo"`` \| ``"profile"`` \| ``"bulletin"`` \| ``"other"``
 
 #### Defined in
 
-[src/types/Flag.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L5)
+[src/types/Flag.ts:5](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L5)
 
 ___
 
@@ -455,7 +470,7 @@ ___
 
 #### Defined in
 
-[src/types/Friendship.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Friendship.ts#L11)
+[src/types/Friendship.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Friendship.ts#L11)
 
 ___
 
@@ -465,17 +480,17 @@ ___
 
 #### Defined in
 
-[src/types/Friendship.ts:25](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Friendship.ts#L25)
+[src/types/Friendship.ts:25](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Friendship.ts#L25)
 
 ___
 
 ### FriendshipStatus
 
-Ƭ **FriendshipStatus**: ``"requested"`` \| ``"confirmed"`` \| ``"rejected"``
+Ƭ **FriendshipStatus**: ``"none"`` \| ``"requested"`` \| ``"confirmed"`` \| ``"rejected"``
 
 #### Defined in
 
-[src/types/Friendship.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Friendship.ts#L9)
+[src/types/Friendship.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Friendship.ts#L9)
 
 ___
 
@@ -485,7 +500,7 @@ ___
 
 #### Defined in
 
-[src/types/GUID.ts:2](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/GUID.ts#L2)
+[src/types/GUID.ts:3](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/GUID.ts#L3)
 
 ___
 
@@ -504,7 +519,7 @@ A type to check if a record has a property
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:133](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L133)
+[src/types/FirestoreBaseTypes.ts:133](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L133)
 
 ___
 
@@ -514,7 +529,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:23](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Human.ts#L23)
+[src/types/Human.ts:23](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Human.ts#L23)
 
 ___
 
@@ -530,7 +545,7 @@ ___
 
 #### Defined in
 
-[src/types/Human.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Human.ts#L9)
+[src/types/Human.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Human.ts#L9)
 
 ___
 
@@ -540,7 +555,7 @@ ___
 
 #### Defined in
 
-[src/types/Like.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L12)
+[src/types/Like.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Like.ts#L12)
 
 ___
 
@@ -556,17 +571,17 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:25](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L25)
+[src/types/Notification.ts:31](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L31)
 
 ___
 
 ### LikeableType
 
-Ƭ **LikeableType**: ``"post"`` \| ``"comment"`` \| ``"photo"`` \| ``"bulletin"``
+Ƭ **LikeableType**: ``"none"`` \| ``"post"`` \| ``"comment"`` \| ``"photo"`` \| ``"bulletin"``
 
 #### Defined in
 
-[src/types/Like.ts:4](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L4)
+[src/types/Like.ts:4](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Like.ts#L4)
 
 ___
 
@@ -585,7 +600,7 @@ we only use this on the front end. It should not be saved to Firestore
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:113](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L113)
+[src/types/FirestoreBaseTypes.ts:113](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L113)
 
 ___
 
@@ -595,7 +610,7 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L22)
+[src/types/MultiDoc.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L22)
 
 ___
 
@@ -611,7 +626,7 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L15)
+[src/types/MultiDoc.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L15)
 
 ___
 
@@ -621,7 +636,7 @@ ___
 
 #### Defined in
 
-[src/types/MultiDoc.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/MultiDoc.ts#L19)
+[src/types/MultiDoc.ts:19](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L19)
 
 ___
 
@@ -631,7 +646,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:19](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L19)
+[src/types/Notification.ts:25](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L25)
 
 ___
 
@@ -647,7 +662,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:31](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Post.ts#L31)
+[src/types/Post.ts:31](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Post.ts#L31)
 
 ___
 
@@ -663,7 +678,7 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Post.ts#L10)
+[src/types/Post.ts:10](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Post.ts#L10)
 
 ___
 
@@ -694,7 +709,7 @@ ___
 
 #### Defined in
 
-[src/types/UtilTypes.ts:1](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/UtilTypes.ts#L1)
+[src/types/UtilTypes.ts:1](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/UtilTypes.ts#L1)
 
 ___
 
@@ -704,7 +719,7 @@ ___
 
 #### Defined in
 
-[src/types/Firestore.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Firestore.ts#L16)
+[src/types/Firestore.ts:16](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Firestore.ts#L16)
 
 ___
 
@@ -734,7 +749,7 @@ ___
 
 #### Defined in
 
-[src/types/Query.ts:3](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Query.ts#L3)
+[src/types/Query.ts:3](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Query.ts#L3)
 
 ___
 
@@ -744,7 +759,7 @@ ___
 
 #### Defined in
 
-[src/types/Relationship.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Relationship.ts#L22)
+[src/types/Relationship.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Relationship.ts#L22)
 
 ___
 
@@ -760,17 +775,17 @@ ___
 
 #### Defined in
 
-[src/types/Relationship.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Relationship.ts#L11)
+[src/types/Relationship.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Relationship.ts#L11)
 
 ___
 
 ### RelationshipType
 
-Ƭ **RelationshipType**: ``"parent"`` \| ``"friend"`` \| ``"caregiver"``
+Ƭ **RelationshipType**: ``"none"`` \| ``"parent"`` \| ``"friend"`` \| ``"caregiver"``
 
 #### Defined in
 
-[src/types/Relationship.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Relationship.ts#L9)
+[src/types/Relationship.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Relationship.ts#L9)
 
 ___
 
@@ -780,7 +795,7 @@ ___
 
 #### Defined in
 
-[src/types/Timestamp.ts:3](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Timestamp.ts#L3)
+[src/types/Timestamp.ts:3](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Timestamp.ts#L3)
 
 ___
 
@@ -801,7 +816,7 @@ Box the type when mixing content types.
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:128](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L128)
+[src/types/FirestoreBaseTypes.ts:128](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L128)
 
 ___
 
@@ -820,4 +835,134 @@ so this is only used on the front-end.
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:120](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L120)
+[src/types/FirestoreBaseTypes.ts:120](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L120)
+
+## Variables
+
+### emptyBulletin
+
+• `Const` **emptyBulletin**: [`Bulletin`](interfaces/Bulletin.md)
+
+#### Defined in
+
+[src/types/Bulletin.ts:107](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Bulletin.ts#L107)
+
+___
+
+### emptyComment
+
+• `Const` **emptyComment**: [`Comment`](interfaces/Comment.md)
+
+#### Defined in
+
+[src/types/Comment.ts:34](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Comment.ts#L34)
+
+___
+
+### emptyDog
+
+• `Const` **emptyDog**: [`Dog`](interfaces/Dog.md)
+
+#### Defined in
+
+[src/types/Dog.ts:37](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Dog.ts#L37)
+
+___
+
+### emptyFlag
+
+• `Const` **emptyFlag**: [`Flag`](interfaces/Flag.md)
+
+#### Defined in
+
+[src/types/Flag.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L22)
+
+___
+
+### emptyFriendship
+
+• `Const` **emptyFriendship**: [`Friendship`](interfaces/Friendship.md)
+
+#### Defined in
+
+[src/types/Friendship.ts:27](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Friendship.ts#L27)
+
+___
+
+### emptyHuman
+
+• `Const` **emptyHuman**: [`Human`](interfaces/Human.md)
+
+#### Defined in
+
+[src/types/Human.ts:25](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Human.ts#L25)
+
+___
+
+### emptyLike
+
+• `Const` **emptyLike**: [`Like`](interfaces/Like.md)
+
+#### Defined in
+
+[src/types/Like.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Like.ts#L22)
+
+___
+
+### emptyMultiBulletin
+
+• `Const` **emptyMultiBulletin**: [`MultiBulletin`](modules.md#multibulletin)
+
+#### Defined in
+
+[src/types/MultiDoc.ts:52](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L52)
+
+___
+
+### emptyMultiPost
+
+• `Const` **emptyMultiPost**: [`MultiPost`](modules.md#multipost)
+
+#### Defined in
+
+[src/types/MultiDoc.ts:26](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/MultiDoc.ts#L26)
+
+___
+
+### emptyNotification
+
+• `Const` **emptyNotification**: [`Notification`](interfaces/Notification.md)
+
+#### Defined in
+
+[src/types/Notification.ts:35](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L35)
+
+___
+
+### emptyPost
+
+• `Const` **emptyPost**: [`Post`](interfaces/Post.md)
+
+#### Defined in
+
+[src/types/Post.ts:35](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Post.ts#L35)
+
+___
+
+### emptyRelationship
+
+• `Const` **emptyRelationship**: [`Relationship`](interfaces/Relationship.md)
+
+#### Defined in
+
+[src/types/Relationship.ts:24](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Relationship.ts#L24)
+
+___
+
+### emptyUser
+
+• `Const` **emptyUser**: [`User`](interfaces/User.md)
+
+#### Defined in
+
+[src/types/User.ts:53](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/User.ts#L53)

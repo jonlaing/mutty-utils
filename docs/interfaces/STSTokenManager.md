@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/types/User.ts:20](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/User.ts#L20)
+[src/types/User.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/User.ts#L20)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:21](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/User.ts#L21)
+[src/types/User.ts:21](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/User.ts#L21)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/User.ts#L22)
+[src/types/User.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/User.ts#L22)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/types/User.ts:23](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/User.ts#L23)
+[src/types/User.ts:23](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/User.ts#L23)

@@ -26,6 +26,8 @@ Base type for all Firestore records
 
   ↳↳ [`Like`](Like.md)
 
+  ↳↳ [`Likeable`](Likeable.md)
+
   ↳↳ [`Notification`](Notification.md)
 
   ↳↳ [`Post`](Post.md)
@@ -53,7 +55,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -67,4 +69,4 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L9)

@@ -1,1 +1,1 @@
-{"version":3,"file":"Human.js","sourceRoot":"","sources":["../../src/types/Human.ts"],"names":[],"mappings":""}
+{"version":3,"file":"Human.js","sourceRoot":"","sources":["../../src/types/Human.ts"],"names":[],"mappings":";;;AAwBa,QAAA,UAAU,GAAU;IAC/B,EAAE,EAAE,EAAE;IACN,OAAO,EAAE,CAAC;IACV,QAAQ,EAAE,EAAE;IACZ,MAAM,EAAE,EAAE;IACV,WAAW,EAAE,EAAE;IACf,SAAS,EAAE,EAAE;IACb,eAAe,EAAE,IAAI;IACrB,cAAc,EAAE,EAAE;IAClB,aAAa,EAAE,EAAE;CAClB,CAAC"}

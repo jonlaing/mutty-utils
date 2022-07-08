@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/types/User.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/User.ts#L7)
+[src/types/User.ts:7](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/User.ts#L7)

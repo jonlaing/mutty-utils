@@ -1,6 +1,14 @@
-import { lens } from "shonad";
+import { dict, lens } from "shonad";
 import { maybe } from "shonad";
-import { GUID, Video } from "../types";
+
+import {
+  GUID,
+  MultiPost,
+  Post,
+  Video,
+  emptyMultiPost,
+  emptyPost,
+} from "../types";
 
 export namespace post {
   export const contentID = lens.prop<GUID>("contentId");
@@ -19,3 +27,7 @@ export const videoThumbnail = lens.compose<any, maybe.Maybe<string>>(
   lens.optional({}),
   thumbnail
 );
+
+export const PostLensHelper = dict.makeDictHelper<Post>(emptyPost);
+export const MultiPostLensHelper =
+  dict.makeDictHelper<MultiPost>(emptyMultiPost);

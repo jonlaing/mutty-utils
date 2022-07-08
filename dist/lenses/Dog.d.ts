@@ -1,5 +1,5 @@
 import { lens } from "shonad";
-import { Relationship } from "../types";
+import { Dog, Relationship } from "../types";
 export declare const fullName: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 export declare const pics: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string[]>>;
 export declare const breed: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
@@ -8,3 +8,17 @@ export declare const monthBorn: lens.Lens<any, import("shonad/dist/data/Maybe").
 export declare const dayBorn: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<number>>;
 export declare const missing: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string>>;
 export declare const relationship: lens.Lens<any, import("shonad/dist/data/Maybe").Maybe<string | Relationship>>;
+export declare const DogLensHelper: (obj: import("shonad/dist/data/Maybe").Maybe<Dog>) => {
+    fullName: () => string;
+    pics: () => string[];
+    breed: () => string;
+    yearBorn: () => number;
+    monthBorn: () => number;
+    dayBorn: () => number;
+    summary: () => string;
+    missing: () => string;
+    verified: () => boolean;
+    id: () => string;
+    created: () => number;
+    relationship: () => string;
+};

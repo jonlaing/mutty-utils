@@ -4,9 +4,11 @@
 
 ## Hierarchy
 
-- `Omit`<[`ProcessedDoc`](ProcessedDoc.md), ``"created"``\>
+- [`ProcessedDoc`](ProcessedDoc.md)
 
   ↳ **`Likeable`**
+
+  ↳↳ [`LikedDoc`](LikedDoc.md)
 
   ↳↳ [`LikeNotifIface`](LikeNotifIface.md)
 
@@ -24,9 +26,15 @@
 
 • **created**: `number`
 
+Seconds since the epoch that it was created
+
+#### Inherited from
+
+[ProcessedDoc](ProcessedDoc.md).[created](ProcessedDoc.md#created)
+
 #### Defined in
 
-[src/types/Like.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L16)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -36,11 +44,11 @@ ___
 
 #### Inherited from
 
-Omit.id
+[ProcessedDoc](ProcessedDoc.md).[id](ProcessedDoc.md#id)
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -50,4 +58,4 @@ ___
 
 #### Defined in
 
-[src/types/Like.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L15)
+[src/types/Like.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Like.ts#L15)

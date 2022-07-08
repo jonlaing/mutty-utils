@@ -49,3 +49,38 @@ export interface User {
   operationType: string;
   user: UserUser;
 }
+
+export const emptyUser: User = {
+  additionalUserInfo: {
+    isNewUser: true,
+    providerId: "",
+  },
+  credential: false,
+  operationType: "",
+  user: {
+    apiKey: "",
+    appName: "",
+    authDomain: "",
+    createdAt: "",
+    displayName: "",
+    email: "",
+    emailVerified: false,
+    isAnonymous: false,
+    lastLoginAt: "",
+    multiFactor: {
+      enrolledFactors: [],
+    },
+    phoneNumber: "",
+    photoURL: "",
+    providerData: [],
+    redirectEventId: false,
+    stsTokenManager: {
+      accessToken: "",
+      apiKey: "",
+      expirationTime: 0,
+      refreshToken: "",
+    },
+    tenantId: "",
+    uid: "",
+  },
+};

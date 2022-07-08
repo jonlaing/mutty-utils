@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/lenses/Notification.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Notification.ts#L6)
+[src/lenses/Notification.ts:12](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L12)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/lenses/Notification.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Notification.ts#L7)
+[src/lenses/Notification.ts:13](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Notification.ts#L13)

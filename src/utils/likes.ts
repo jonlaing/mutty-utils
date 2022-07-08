@@ -1,8 +1,9 @@
-import { GUID } from "../types/GUID";
 import * as R from "ramda";
+
+import { Firestore } from "../types/Firestore";
+import { GUID } from "../types/GUID";
 import { Like, Likeable } from "../types/Like";
 import { batchGetByFieldWithConstraints } from "./firestore";
-import { Firestore } from "../types/Firestore";
 
 export const updateLikes = R.curry(
   (val: number, liked: boolean, docs: Likeable[], id: GUID) =>

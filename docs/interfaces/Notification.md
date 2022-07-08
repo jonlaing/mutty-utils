@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[src/types/Notification.ts:14](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L14)
+[src/types/Notification.ts:20](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L20)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L9)
+[src/types/Notification.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L15)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:12](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L12)
+[src/types/Notification.ts:18](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L18)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:13](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L13)
+[src/types/Notification.ts:19](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L19)
 
 ___
 
@@ -77,7 +77,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:10](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L10)
+[src/types/Notification.ts:16](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L16)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L16)
+[src/types/Notification.ts:22](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L22)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L15)
+[src/types/Notification.ts:21](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L21)
 
 ___
 
@@ -131,4 +131,4 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L11)
+[src/types/Notification.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L17)

@@ -1,6 +1,6 @@
+import { DocBuilder, EmbeddableFields, ProcessedDoc } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
 import { Relationship } from "./Relationship";
-import { DocBuilder, EmbeddableFields, ProcessedDoc } from "./FirestoreBaseTypes";
 export declare type HumanEmbedMap = {
     relationship?: Relationship;
 };
@@ -14,3 +14,4 @@ export interface Human extends ProcessedDoc, EmbeddableFields<HumanEmbedMap> {
     recentLocation?: string;
 }
 export declare type HumanBuider = DocBuilder<Human>;
+export declare const emptyHuman: Human;

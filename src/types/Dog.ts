@@ -1,10 +1,10 @@
-import { Relationship } from "./Relationship";
 import {
   DocBuilder,
   EmbeddableFields,
   ProcessedDoc,
 } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
+import { Relationship } from "./Relationship";
 
 /** @see {@link EmbedFields} */
 export type DogEmbedMap = {
@@ -28,19 +28,18 @@ export interface Dog extends ProcessedDoc, EmbeddableFields<DogEmbedMap> {
   summary: string;
   /** Content ID for the a `lostdog` {@link Bulletin} */
   missing?: GUID;
+  /** Is this a verified account? */
+  verified?: boolean;
 }
 
 export type DogBuilder = DocBuilder<Dog>;
 
-export namespace Dog {
-  /** Dog object with all empty properties */
-  export const emptyDog: Dog = {
-    id: "",
-    fullName: "",
-    pics: [],
-    breed: "",
-    yearBorn: new Date().getFullYear(),
-    summary: "",
-    created: 0,
-  };
-}
+export const emptyDog: Dog = {
+  id: "",
+  fullName: "",
+  pics: [],
+  breed: "",
+  yearBorn: new Date().getFullYear(),
+  summary: "",
+  created: 0,
+};

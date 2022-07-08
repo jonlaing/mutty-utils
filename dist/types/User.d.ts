@@ -44,3 +44,4 @@ export interface User {
     operationType: string;
     user: UserUser;
 }
+export declare const emptyUser: User;

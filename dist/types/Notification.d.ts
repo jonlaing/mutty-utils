@@ -1,8 +1,8 @@
 import { DocBuilder, HasProp, ProcessedDoc } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
 import { Likeable } from "./Like";
-export declare type ContentType = "post" | "comment" | "photo" | "dog" | "bulletin";
-export declare type ActionType = "like" | "comment" | "friend" | "tag";
+export declare type ContentType = "none" | "post" | "comment" | "photo" | "dog" | "bulletin";
+export declare type ActionType = "none" | "like" | "comment" | "friend" | "tag";
 export interface Notification extends ProcessedDoc {
     author: GUID;
     from: GUID[];
@@ -22,3 +22,4 @@ export declare type LikeNotifWDog<T> = T extends HasProp<T, "dog"> ? LikeNotifIf
 } : LikeNotifIface & {
     dogs: GUID[];
 };
+export declare const emptyNotification: Notification;

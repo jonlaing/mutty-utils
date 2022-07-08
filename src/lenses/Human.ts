@@ -1,5 +1,6 @@
-import { lens } from "shonad";
-import { GUID } from "../types";
+import { dict, lens } from "shonad";
+
+import { GUID, Human, emptyHuman } from "../types";
 
 export namespace human {
   export const userID = lens.prop<GUID>("userid");
@@ -10,3 +11,5 @@ export const pushToken = lens.prop<string>("pushToken");
 export const pausePushNotifs = lens.prop<boolean>("pausePushNotifs");
 export const recoveryEmail = lens.prop<string>("recoveryEmail");
 export const recentLocation = lens.prop<string>("recentLocation");
+
+export const HumanLensHelper = dict.makeDictHelper<Human>(emptyHuman);

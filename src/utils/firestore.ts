@@ -1,7 +1,8 @@
 import * as R from "ramda";
-import { QueryConstraintSyncFn } from "../types/Query";
-import { ProcessedDoc } from "../types/FirestoreBaseTypes";
+
 import { DocumentData, FieldPath, Query } from "../types/Firestore";
+import { ProcessedDoc } from "../types/FirestoreBaseTypes";
+import { QueryConstraintSyncFn } from "../types/Query";
 
 export const dataToDoc = <T extends ProcessedDoc>(res: DocumentData) => {
   const data = res.data();

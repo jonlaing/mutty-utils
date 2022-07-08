@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/lenses/User.ts:67](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L67)
+[src/lenses/User.ts:68](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L68)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:71](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L71)
+[src/lenses/User.ts:72](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L72)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:75](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L75)
+[src/lenses/User.ts:76](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L76)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:79](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L79)
+[src/lenses/User.ts:80](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L80)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:83](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L83)
+[src/lenses/User.ts:84](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L84)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:87](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L87)
+[src/lenses/User.ts:88](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L88)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:91](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L91)
+[src/lenses/User.ts:92](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L92)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:95](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L95)
+[src/lenses/User.ts:96](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L96)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:99](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L99)
+[src/lenses/User.ts:100](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L100)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:103](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L103)
+[src/lenses/User.ts:104](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L104)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:107](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L107)
+[src/lenses/User.ts:108](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L108)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:111](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L111)
+[src/lenses/User.ts:112](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L112)
 
 ___
 
@@ -150,4 +150,4 @@ ___
 
 #### Defined in
 
-[src/lenses/User.ts:115](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/User.ts#L115)
+[src/lenses/User.ts:116](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/User.ts#L116)

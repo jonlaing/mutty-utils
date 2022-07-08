@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.user = exports.stsTokenManager = exports.firstProviderData = exports.providerData = exports.enrolledFactors = exports.multiFactor = exports.providerID = exports.isNewUser = exports.userRecord = exports.operationType = exports.credential = exports.additionalUserInfo = void 0;
+exports.UserLensHelper = exports.user = exports.stsTokenManager = exports.firstProviderData = exports.providerData = exports.enrolledFactors = exports.multiFactor = exports.providerID = exports.isNewUser = exports.userRecord = exports.operationType = exports.credential = exports.additionalUserInfo = void 0;
 const shonad_1 = require("shonad");
+const types_1 = require("../types");
 exports.additionalUserInfo = shonad_1.lens.prop("additionalUserInfo");
 exports.credential = shonad_1.lens.prop("credential");
 exports.operationType = shonad_1.lens.prop("operationType");
@@ -31,4 +32,5 @@ var user;
     user.tenantID = shonad_1.lens.compose(maybeUser, shonad_1.lens.prop("tenantId"));
     user.uid = shonad_1.lens.compose(maybeUser, shonad_1.lens.prop("uid"));
 })(user = exports.user || (exports.user = {}));
+exports.UserLensHelper = shonad_1.dict.makeDictHelper(types_1.emptyUser);
 //# sourceMappingURL=User.js.map

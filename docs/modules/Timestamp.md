@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/types/Timestamp.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Timestamp.ts#L6)
+[src/types/Timestamp.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Timestamp.ts#L6)

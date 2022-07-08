@@ -1,5 +1,12 @@
 import { dict, lens, maybe } from "shonad";
-import { Dog, Friendship, FriendshipStatus, GUID } from "../types";
+
+import {
+  Dog,
+  Friendship,
+  FriendshipStatus,
+  GUID,
+  emptyFriendship,
+} from "../types";
 
 export const dog1 = lens.prop<Dog | GUID>("dog1");
 export const dog2 = lens.prop<Dog | GUID>("dog2");
@@ -18,3 +25,6 @@ export const block = lens.lens<Friendship, maybe.Maybe<GUID>>(
       maybe.fmap((v) => dict.set("block", v, a), mv)
     )
 );
+
+export const FriendshipLensHelper =
+  dict.makeDictHelper<Friendship>(emptyFriendship);

@@ -1,4 +1,5 @@
 import * as R from "ramda";
+
 export const not = R.curry((f: (x: any) => boolean, vals: any) => !f(vals));
 
 export const or = R.curry(

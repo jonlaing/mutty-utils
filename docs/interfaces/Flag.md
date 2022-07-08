@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/types/Flag.ts:14](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L14)
+[src/types/Flag.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L15)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[src/types/Flag.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L15)
+[src/types/Flag.ts:16](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L16)
 
 ___
 
@@ -55,7 +55,7 @@ Seconds since the epoch that it was created
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L15)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/types/Flag.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L16)
+[src/types/Flag.ts:17](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L17)
 
 ___
 
@@ -89,4 +89,4 @@ ___
 
 #### Defined in
 
-[src/types/Flag.ts:13](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Flag.ts#L13)
+[src/types/Flag.ts:14](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Flag.ts#L14)

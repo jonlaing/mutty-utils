@@ -1,13 +1,16 @@
-import { GUID } from "./GUID";
 import { DocBuilder, ProcessedDoc } from "./FirestoreBaseTypes";
-export declare type LikeableType = "post" | "comment" | "photo" | "bulletin";
+import { GUID } from "./GUID";
+export declare type LikeableType = "none" | "post" | "comment" | "photo" | "bulletin";
 export interface Like extends ProcessedDoc {
     user: GUID;
     content: GUID;
     type: LikeableType;
 }
 export declare type LikeBuilder = DocBuilder<Like>;
-export interface Likeable extends Omit<ProcessedDoc, "created"> {
+export interface Likeable extends ProcessedDoc {
     likes: number;
-    created: number;
 }
+export interface LikedDoc extends Likeable {
+    liked: boolean;
+}
+export declare const emptyLike: Like;

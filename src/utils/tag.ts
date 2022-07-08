@@ -1,4 +1,5 @@
 import * as R from "ramda";
+
 import { Dog } from "../types/Dog";
 
 export const matchTag = R.match(/@\w+/g);

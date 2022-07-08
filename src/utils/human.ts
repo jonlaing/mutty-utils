@@ -1,4 +1,5 @@
 import * as R from "ramda";
+
 import { GUID, Human } from "../types";
 import { Firestore } from "../types/Firestore";
 

@@ -1,6 +1,7 @@
+import moment from "moment";
+
 import { lens } from "shonad";
 import { maybe } from "shonad";
-import moment from "moment";
 
 export const momentLens = lens.lens<
   maybe.Maybe<number>,

@@ -1,6 +1,6 @@
-import { Relationship } from "./Relationship";
 import { DocBuilder, EmbeddableFields, ProcessedDoc } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
+import { Relationship } from "./Relationship";
 /** @see {@link EmbedFields} */
 export declare type DogEmbedMap = {
     relationship?: Relationship;
@@ -22,9 +22,8 @@ export interface Dog extends ProcessedDoc, EmbeddableFields<DogEmbedMap> {
     summary: string;
     /** Content ID for the a `lostdog` {@link Bulletin} */
     missing?: GUID;
+    /** Is this a verified account? */
+    verified?: boolean;
 }
 export declare type DogBuilder = DocBuilder<Dog>;
-export declare namespace Dog {
-    /** Dog object with all empty properties */
-    const emptyDog: Dog;
-}
+export declare const emptyDog: Dog;

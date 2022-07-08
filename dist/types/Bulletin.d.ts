@@ -88,3 +88,4 @@ export interface Bulletin extends ProcessedDoc, EmbeddableFields<BulletinEmbedMa
     dogFound?: boolean;
 }
 export declare type BulletinBuilder<HasLikes extends boolean = true> = HasLikes extends true ? DocBuilder<Bulletin> : DocBuilder<Omit<Bulletin, "likes">>;
+export declare const emptyBulletin: Bulletin;

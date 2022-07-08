@@ -1,4 +1,5 @@
 import { lens, maybe } from "shonad";
+
 import { Dog, GUID } from "../types";
 import { momentLens } from "./Timestamp";
 

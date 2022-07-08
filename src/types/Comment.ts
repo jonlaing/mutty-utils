@@ -1,10 +1,10 @@
-import { GUID } from "./GUID";
 import { Dog } from "./Dog";
 import {
   DocBuilder,
   EmbeddableFields,
   ProcessedDoc,
 } from "./FirestoreBaseTypes";
+import { GUID } from "./GUID";
 
 /**
  * Comments for {@link Post} and {@link Bulletin}.
@@ -30,3 +30,14 @@ export interface Comment
 }
 
 export type CommentBuilder = DocBuilder<Comment>;
+
+export const emptyComment: Comment = {
+  id: "",
+  created: 0,
+  dogs: [],
+  user: "",
+  content: "",
+  summary: "",
+  likes: 0,
+  tags: {},
+};

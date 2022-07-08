@@ -1,11 +1,11 @@
-import { GUID } from "./GUID";
-import { Location } from "./Location";
 import { Dog } from "./Dog";
 import {
   DocBuilder,
   EmbeddableFields,
   ProcessedDoc,
 } from "./FirestoreBaseTypes";
+import { GUID } from "./GUID";
+import { Location } from "./Location";
 
 export type PostEmbedMap = {
   dog: Dog;
@@ -32,16 +32,26 @@ export type PostBuilder<HasLikes extends boolean = true> = HasLikes extends true
   ? DocBuilder<Post>
   : DocBuilder<Omit<Post, "likes">>;
 
-export namespace Post {
-  export const emptyPost: Post = {
-    id: "",
-    user: "",
-    dog: "",
-    contentId: "",
-    location: {},
-    summary: "",
-    image: "",
-    likes: 0,
-    created: 0,
-  };
-}
+export const emptyPost: Post = {
+  id: "",
+  created: 0,
+  contentId: "",
+  user: "",
+  location: {
+    geopoint: {
+      latitude: 0,
+      longitude: 0,
+    },
+    name: "",
+  },
+  locationID: "",
+  summary: "",
+  video: {
+    uri: "",
+    thumbnail: "",
+  },
+  image: "",
+  likes: 0,
+  tags: {},
+  dog: "",
+};

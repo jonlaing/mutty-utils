@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/lenses/Flag.ts:6](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Flag.ts#L6)
+[src/lenses/Flag.ts:7](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Flag.ts#L7)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/lenses/Flag.ts:7](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Flag.ts#L7)
+[src/lenses/Flag.ts:8](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Flag.ts#L8)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/lenses/Flag.ts:5](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/lenses/Flag.ts#L5)
+[src/lenses/Flag.ts:6](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/lenses/Flag.ts#L6)

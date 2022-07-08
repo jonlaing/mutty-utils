@@ -2,8 +2,14 @@ import { DocBuilder, HasProp, ProcessedDoc } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
 import { Likeable } from "./Like";
 
-export type ContentType = "post" | "comment" | "photo" | "dog" | "bulletin";
-export type ActionType = "like" | "comment" | "friend" | "tag";
+export type ContentType =
+  | "none"
+  | "post"
+  | "comment"
+  | "photo"
+  | "dog"
+  | "bulletin";
+export type ActionType = "none" | "like" | "comment" | "friend" | "tag";
 
 export interface Notification extends ProcessedDoc {
   author: GUID;
@@ -25,3 +31,16 @@ export interface LikeNotifIface extends Likeable {
 export type LikeNotifWDog<T> = T extends HasProp<T, "dog">
   ? LikeNotifIface & { dog: GUID }
   : LikeNotifIface & { dogs: GUID[] };
+
+export const emptyNotification: Notification = {
+  id: "",
+  created: 0,
+  author: "",
+  from: [],
+  to: "",
+  contentId: "",
+  contentType: "none",
+  actionType: "none",
+  summary: "",
+  read: true,
+};

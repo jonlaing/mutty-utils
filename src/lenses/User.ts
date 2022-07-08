@@ -1,5 +1,5 @@
-import { lens } from "shonad";
-import { maybe } from "shonad";
+import { dict, lens, maybe } from "shonad";
+
 import {
   AdditionalUserInfo,
   GUID,
@@ -8,6 +8,7 @@ import {
   STSTokenManager,
   User,
   UserUser,
+  emptyUser,
 } from "../types";
 
 export const additionalUserInfo =
@@ -117,3 +118,5 @@ export namespace user {
     lens.prop<GUID>("uid")
   );
 }
+
+export const UserLensHelper = dict.makeDictHelper<User>(emptyUser);

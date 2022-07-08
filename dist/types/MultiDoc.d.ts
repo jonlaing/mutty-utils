@@ -15,3 +15,5 @@ export declare type MultiDoc<T extends LikedDogContent> = T & {
 };
 export declare type MultiPost = MultiDoc<WithComments<Liked<EmbedField<Post, "dog", Dog>>>>;
 export declare type MultiBulletin = MultiDoc<WithComments<Liked<EmbedField<Bulletin, "dog", Dog>>>>;
+export declare const emptyMultiPost: MultiPost;
+export declare const emptyMultiBulletin: MultiBulletin;

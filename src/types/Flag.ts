@@ -7,7 +7,8 @@ export type FlaggableType =
   | "comment"
   | "photo"
   | "profile"
-  | "bulletin";
+  | "bulletin"
+  | "other";
 
 export interface Flag extends ProcessedDoc, HasTimestamp {
   userId: GUID;
@@ -17,3 +18,12 @@ export interface Flag extends ProcessedDoc, HasTimestamp {
 }
 
 export type FlagBuilder = DocBuilder<Flag>;
+
+export const emptyFlag: Flag = {
+  id: "",
+  created: 0,
+  userId: "",
+  contentId: "",
+  type: "other",
+  contentType: "other",
+};

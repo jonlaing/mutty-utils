@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/types/Geopoint.ts:2](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Geopoint.ts#L2)
+[src/types/Geopoint.ts:2](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Geopoint.ts#L2)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/types/Geopoint.ts:3](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Geopoint.ts#L3)
+[src/types/Geopoint.ts:3](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Geopoint.ts#L3)

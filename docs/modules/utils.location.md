@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[src/utils/location.ts:11](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/location.ts#L11)
+[src/utils/location.ts:11](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/location.ts#L11)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/utils/location.ts:18](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/location.ts#L18)
+[src/utils/location.ts:18](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/location.ts#L18)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[src/utils/location.ts:23](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/location.ts#L23)
+[src/utils/location.ts:23](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/location.ts#L23)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/utils/location.ts:35](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/location.ts#L35)
+[src/utils/location.ts:35](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/location.ts#L35)
 
 ___
 
@@ -118,4 +118,4 @@ ___
 
 #### Defined in
 
-[src/utils/location.ts:28](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/utils/location.ts#L28)
+[src/utils/location.ts:28](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/utils/location.ts#L28)

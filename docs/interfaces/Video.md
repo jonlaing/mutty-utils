@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/types/Post.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Post.ts#L16)
+[src/types/Post.ts:16](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Post.ts#L16)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/types/Post.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Post.ts#L15)
+[src/types/Post.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Post.ts#L15)

@@ -6,7 +6,7 @@ import {
 } from "./FirestoreBaseTypes";
 import { GUID } from "./GUID";
 
-export type RelationshipType = "parent" | "friend" | "caregiver";
+export type RelationshipType = "none" | "parent" | "friend" | "caregiver";
 
 export type RelationshipEmbedMap = {
   dog: Dog;
@@ -20,3 +20,11 @@ export interface Relationship
 }
 
 export type RelationshipBuilder = DocBuilder<Relationship>;
+
+export const emptyRelationship: Relationship = {
+  id: "",
+  created: 0,
+  dog: "",
+  user: "",
+  type: "none",
+};

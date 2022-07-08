@@ -1,12 +1,12 @@
 import { Dog } from "./Dog";
-import { GUID } from "./GUID";
 import {
   DocBuilder,
   EmbeddableFields,
   ProcessedDoc,
 } from "./FirestoreBaseTypes";
+import { GUID } from "./GUID";
 
-export type FriendshipStatus = "requested" | "confirmed" | "rejected";
+export type FriendshipStatus = "none" | "requested" | "confirmed" | "rejected";
 
 export type FriendEmbedMap = {
   dog1: Dog;
@@ -23,3 +23,14 @@ export interface Friendship
 }
 
 export type FriendshipBuilder = DocBuilder<Friendship>;
+
+export const emptyFriendship: Friendship = {
+  id: "",
+  created: 0,
+  friendshipId: "",
+  dog1: "",
+  dog2: "",
+  author: "",
+  status: "none",
+  block: "",
+};

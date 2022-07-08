@@ -23,13 +23,15 @@
 
 • **created**: `number`
 
+Seconds since the epoch that it was created
+
 #### Inherited from
 
 [Likeable](Likeable.md).[created](Likeable.md#created)
 
 #### Defined in
 
-[src/types/Like.ts:16](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L16)
+[src/types/FirestoreBaseTypes.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L15)
 
 ___
 
@@ -43,7 +45,7 @@ ___
 
 #### Defined in
 
-[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/FirestoreBaseTypes.ts#L9)
+[src/types/FirestoreBaseTypes.ts:9](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/FirestoreBaseTypes.ts#L9)
 
 ___
 
@@ -57,7 +59,7 @@ ___
 
 #### Defined in
 
-[src/types/Like.ts:15](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Like.ts#L15)
+[src/types/Like.ts:15](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Like.ts#L15)
 
 ___
 
@@ -67,4 +69,4 @@ ___
 
 #### Defined in
 
-[src/types/Notification.ts:22](https://github.com/jonlaing/mutty-utils/blob/d7d0eb8/src/types/Notification.ts#L22)
+[src/types/Notification.ts:28](https://github.com/jonlaing/mutty-utils/blob/f9c02d2/src/types/Notification.ts#L28)
